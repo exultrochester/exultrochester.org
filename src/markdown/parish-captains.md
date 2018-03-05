@@ -3,7 +3,7 @@ title: Parish Captains
 link: http://exultrochester.org/parish-captains/
 path: /parish-captains/
 author: Dave
-description: 
+description:
 post_id: 92
 created: 2015/11/30 23:38:55
 created_gmt: 2015/11/30 23:38:55

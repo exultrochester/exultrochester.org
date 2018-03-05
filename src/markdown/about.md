@@ -3,7 +3,7 @@ title: About
 link: http://exultrochester.org/about/
 path: /about/
 author: Dave
-description: 
+description:
 post_id: 301
 created: 2016/04/11 21:45:53
 created_gmt: 2016/04/12 01:45:53

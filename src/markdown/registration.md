@@ -3,7 +3,7 @@ title: Registration
 link: http://exultrochester.org/registration/
 path: /registration/
 author: Dave
-description: 
+description:
 post_id: 265
 created: 2016/03/10 00:07:31
 created_gmt: 2016/03/10 00:07:31

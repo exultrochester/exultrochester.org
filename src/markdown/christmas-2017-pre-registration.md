@@ -3,7 +3,7 @@ title: Christmas 2017 Pre-Registration
 link: http://exultrochester.org/christmas-2017-pre-registration/
 path: /christmas-2017-pre-registration/
 author: DHilsdorf
-description: 
+description:
 post_id: 558
 created: 2017/11/14 21:16:16
 created_gmt: 2017/11/15 02:16:16
@@ -23,11 +23,11 @@ post_type: page
 
 **Saturday October 13, 2018 from 8 AM - 4 PM**
 
-St Jude the Apostle Church 4100 Lyell Rd Rochester, NY 14606 
+St Jude the Apostle Church 4100 Lyell Rd Rochester, NY 14606
 
 *****LIMITED TIME OFFER CHRISTMAS GIFT SPECIAL*****
 
-To reserve your pre-registration, submit this form and send a check: 
+To reserve your pre-registration, submit this form and send a check:
 
   * payable to Diocese of Rochester
   * 2018 Men's Conference in memo field

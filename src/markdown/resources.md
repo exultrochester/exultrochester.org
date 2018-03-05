@@ -3,7 +3,7 @@ title: Resources
 link: http://exultrochester.org/resources/
 path: /resources/
 author: Dave
-description: 
+description:
 post_id: 32
 created: 2015/10/21 14:37:38
 created_gmt: 2015/10/21 14:37:38

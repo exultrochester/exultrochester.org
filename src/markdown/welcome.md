@@ -3,7 +3,7 @@ title: Contact
 link: http://exultrochester.org/welcome/
 path: /welcome/
 author: Dave
-description: 
+description:
 post_id: 6
 created: 2015/09/14 18:09:44
 created_gmt: 2015/09/14 18:09:44

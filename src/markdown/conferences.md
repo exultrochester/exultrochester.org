@@ -3,7 +3,7 @@ title: Conferences
 link: http://exultrochester.org/conferences/
 path: /conferences/
 author: Dave
-description: 
+description:
 post_id: 22
 created: 2015/10/21 14:35:02
 created_gmt: 2015/10/21 14:35:02

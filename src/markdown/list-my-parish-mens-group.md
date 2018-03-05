@@ -3,7 +3,7 @@ title: List My Parish Men's Group
 link: http://exultrochester.org/list-my-parish-mens-group/
 path: /list-my-parish-mens-group/
 author: DHilsdorf
-description: 
+description:
 post_id: 468
 created: 2017/02/27 22:07:00
 created_gmt: 2017/02/28 03:07:00
