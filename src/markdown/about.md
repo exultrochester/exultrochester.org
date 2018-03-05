@@ -1,6 +1,7 @@
 ---
 title: About
 link: http://exultrochester.org/about/
+path: /about/
 author: Dave
 description: 
 post_id: 301

@@ -1,6 +1,7 @@
 ---
 title: Parish Men's Groups
 link: http://exultrochester.org/parish-mens-groups/
+path: /parish-mens-groups/
 author: Dave
 description: 
 post_id: 95

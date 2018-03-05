@@ -1,6 +1,7 @@
 ---
 title: Conferences
 link: http://exultrochester.org/conferences/
+path: /conferences/
 author: Dave
 description: 
 post_id: 22

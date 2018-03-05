@@ -1,6 +1,7 @@
 ---
 title: Christmas 2017 Pre-Registration
 link: http://exultrochester.org/christmas-2017-pre-registration/
+path: /christmas-2017-pre-registration/
 author: DHilsdorf
 description: 
 post_id: 558

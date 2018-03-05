@@ -1,6 +1,7 @@
 ---
 title: Registration
 link: http://exultrochester.org/registration/
+path: /registration/
 author: Dave
 description: 
 post_id: 265

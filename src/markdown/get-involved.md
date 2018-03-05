@@ -1,6 +1,7 @@
 ---
 title: Vendors
 link: http://exultrochester.org/vendors/
+path: /vendors/
 author: Dave
 description: 
 post_id: 85
