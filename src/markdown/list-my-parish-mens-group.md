@@ -1,3 +1,4 @@
+---
 title: List My Parish Men's Group
 link: http://exultrochester.org/list-my-parish-mens-group/
 author: DHilsdorf
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: list-my-parish-mens-group
 status: publish
 post_type: page
+---
 
 # List My Parish Men's Group
 

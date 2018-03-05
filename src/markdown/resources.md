@@ -1,3 +1,4 @@
+---
 title: Resources
 link: http://exultrochester.org/resources/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: resources
 status: publish
 post_type: page
+---
 
 # Resources
 

@@ -1,3 +1,4 @@
+---
 title: Contact
 link: http://exultrochester.org/welcome/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: welcome
 status: publish
 post_type: page
+---
 
 # Contact
 

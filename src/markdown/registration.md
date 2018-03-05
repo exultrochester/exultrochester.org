@@ -1,3 +1,4 @@
+---
 title: Registration
 link: http://exultrochester.org/registration/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: registration
 status: publish
 post_type: page
+---
 
 # Registration
 

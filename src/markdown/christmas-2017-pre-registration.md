@@ -1,3 +1,4 @@
+---
 title: Christmas 2017 Pre-Registration
 link: http://exultrochester.org/christmas-2017-pre-registration/
 author: DHilsdorf
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: christmas-2017-pre-registration
 status: publish
 post_type: page
+---
 
 # Christmas 2017 Pre-Registration
 

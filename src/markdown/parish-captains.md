@@ -1,3 +1,4 @@
+---
 title: Parish Captains
 link: http://exultrochester.org/parish-captains/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: parish-captains
 status: publish
 post_type: page
+---
 
 # Parish Captains
 

@@ -1,3 +1,4 @@
+---
 title: About
 link: http://exultrochester.org/about/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: about
 status: publish
 post_type: page
+---
 
 # About
 

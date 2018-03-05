@@ -1,3 +1,4 @@
+---
 title: Parish Men's Groups
 link: http://exultrochester.org/parish-mens-groups/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: parish-mens-groups
 status: publish
 post_type: page
+---
 
 # Parish Men's Groups
 

@@ -1,3 +1,4 @@
+---
 title: Vendors
 link: http://exultrochester.org/vendors/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: vendors
 status: publish
 post_type: page
+---
 
 # Vendors
 

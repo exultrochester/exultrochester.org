@@ -1,3 +1,4 @@
+---
 title: Conferences
 link: http://exultrochester.org/conferences/
 author: Dave
@@ -9,6 +10,7 @@ comment_status: closed
 post_name: conferences
 status: publish
 post_type: page
+---
 
 # Conferences
 
