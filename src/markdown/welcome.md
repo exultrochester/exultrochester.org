@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "Contact Us"
 link: http://exultrochester.org/welcome/
 path: /contact/
 author: Dave
@@ -15,16 +15,14 @@ redirect_from:
     - /welcome/
 ---
 
-# Contact
-
 Please contact us at the following address
 
-Exult Rochester
-
-P.O. Box 90574
-
-Rochester, NY 14609
-
-  ![email_icon2](/wp-content/uploads/2016/05/email_icon2.gif)  **Exultrochester@gmail.com**   ![telephone](http://exultrochester.org/wp-content/uploads/2016/05/telephone-300x300.png)   **585-270-0850**  
+* Exult Rochester\
+  P.O. Box 90574\
+  Rochester, NY 14609
+* Exultrochester@gmail.com
+* 585-270-0850  
+* TODO: Social Media Icons
+* TODO: Guidelines about where's best to contact?
 
 **May God Bless You and your families.**

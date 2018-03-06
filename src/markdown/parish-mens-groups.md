@@ -13,9 +13,17 @@ status: publish
 post_type: page
 ---
 
-# Parish Men's Groups
+Looking to join a men's group? Interested in starting one at your parish? Check the list below to see if your parish already has an established Men's Group.
 
-Looking to join a men's group? Interested in starting one at your parish? Check the list below to see if your parish already has an established Men's Group. The mission of the Exult Rochester Catholic Men's Conference is to encourage the formation of parish based groups. If you don't see one and would like to inquire about how to start one in your parish, please contact Dan Hilsdorf at: [fishers-of-men@saintpiustenth.org](mailto:fishers-of-men@saintpiustenth.org) If you would like your parish men's group listed here, please [click here](/list-my-parish-mens-group/).  
+The mission of the Exult Rochester Catholic Men's Conference is to encourage the formation of parish based groups.
+
+If you don't see one and would like to inquire about how to start one in your parish, please contact Dan Hilsdorf at: [fishers-of-men@saintpiustenth.org](mailto:fishers-of-men@saintpiustenth.org)
+
+If you would like your parish men's group listed here, please [click here](/list-my-parish-mens-group/).  
+
+
+# TODO: Source from AirTable
+
 
 **Parish**
 **Group**
