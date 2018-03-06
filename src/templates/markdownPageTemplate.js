@@ -24,6 +24,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         path
+        redirect_from
+        title
       }
     }
   }

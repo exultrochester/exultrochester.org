@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 link: http://exultrochester.org/welcome/
-path: /welcome/
+path: /contact/
 author: Dave
 description:
 post_id: 6
@@ -11,6 +11,8 @@ comment_status: closed
 post_name: welcome
 status: publish
 post_type: page
+redirect_from:
+    - /welcome/
 ---
 
 # Contact

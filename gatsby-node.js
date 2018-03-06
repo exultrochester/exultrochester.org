@@ -21,6 +21,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           node {
             frontmatter {
               path
+              redirect_from
             }
           }
         }
@@ -35,7 +36,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       createPage({
         path: node.frontmatter.path,
         component: markdownPageTemplate,
-        context: {}, // additional data can be passed via context
+        context: {
+          redirect_from: node.frontmatter.redirect_from,
+        }, // additional data can be passed via context
       });
     });
   });
