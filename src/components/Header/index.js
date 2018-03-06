@@ -19,7 +19,9 @@ const Header = () => (
           >
             Exult Rochester
           </NLink>
-          { siteMetadata.nav.map(item => <NLink to={item.to}>{item.text}</NLink> )}
+          { siteMetadata.nav.map(item => (
+          (!item.disabled) && <NLink to={item.to}>{item.text}</NLink>
+          ))}
         </div>
       </div>
     </nav>

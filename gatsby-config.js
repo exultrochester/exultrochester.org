@@ -3,7 +3,7 @@ module.exports = {
     title: 'Exult Rochester',
     nav: [
       { to: '/2018/', text: '2018' },
-      { to: '/past-conferences/', text: 'Past Conferences' },
+      { to: '/past-conferences/', text: 'Past Conferences', disabled: true },
       { to: '/parish-mens-groups/', text: 'Parish Men\'s Groups' },
       { to: '/registration', text: 'Registration', disabled: true },
       { to: '/get-involved/', text: 'Get Involved' },
