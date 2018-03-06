@@ -1,7 +1,7 @@
 ---
-title: Vendors
-link: http://exultrochester.org/vendors/
-path: /vendors/
+title: Get Involved
+link: http://exultrochester.org/get-involved/
+path: /get-involved/
 author: Dave
 description:
 post_id: 85
@@ -11,6 +11,10 @@ comment_status: closed
 post_name: vendors
 status: publish
 post_type: page
+redirect_from:
+    - /vendors/
+    - /sponsors-2/
+    - /parish-captains/
 ---
 
 # Vendors
