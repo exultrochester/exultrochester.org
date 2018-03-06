@@ -1,33 +1,28 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { siteMetadata } from '../../../gatsby-config'
+
+const NLink = ({ to, children, ...props }) => <Link to={to} className="nav-item nav-link"  activeClass="active">{children}</Link>
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="navbar-nav">
+          <NLink
+            className="navbar-brand"
+            to="/"
+          >
+            Exult Rochester
+          </NLink>
+          { siteMetadata.nav.map(item => <NLink to={item.to}>{item.text}</NLink> )}
+        </div>
+      </div>
+    </nav>
+    )
 
 export default Header
