@@ -39,6 +39,8 @@ const IndexPage = () => (
         May we all be encouraged from this event and go forth to ‘strengthen your brothers’.
         May God bless you.
       </p>
+
+      <p>TODO: Mailchimp Sign-up</p>
     </div>
     )
 
