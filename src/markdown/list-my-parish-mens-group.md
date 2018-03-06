@@ -1,5 +1,5 @@
 ---
-title: List My Parish Men's Group
+title: "List My Parish Men's Group"
 link: http://exultrochester.org/list-my-parish-mens-group/
 path: /list-my-parish-mens-group/
 author: DHilsdorf

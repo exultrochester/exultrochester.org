@@ -1,5 +1,5 @@
 ---
-title: Parish Captains
+title: "Parish Captains"
 link: http://exultrochester.org/parish-captains/
 path: /parish-captains/
 author: Dave

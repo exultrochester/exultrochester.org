@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: "Contact"
 link: http://exultrochester.org/welcome/
 path: /welcome/
 author: Dave

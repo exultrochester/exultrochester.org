@@ -1,5 +1,5 @@
 ---
-title: Parish Men's Groups
+title: "Parish Men's Groups"
 link: http://exultrochester.org/parish-mens-groups/
 path: /parish-mens-groups/
 author: Dave

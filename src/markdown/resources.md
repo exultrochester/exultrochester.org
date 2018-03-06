@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: "Resources"
 link: http://exultrochester.org/resources/
 path: /resources/
 author: Dave

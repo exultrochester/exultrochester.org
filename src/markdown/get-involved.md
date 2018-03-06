@@ -1,5 +1,5 @@
 ---
-title: Get Involved
+title: "Get Involved"
 link: http://exultrochester.org/get-involved/
 path: /get-involved/
 author: Dave

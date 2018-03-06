@@ -1,5 +1,5 @@
 ---
-title: About
+title: "About"
 link: http://exultrochester.org/about/
 path: /about/
 author: Dave

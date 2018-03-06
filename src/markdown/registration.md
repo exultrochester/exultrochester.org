@@ -1,5 +1,5 @@
 ---
-title: Registration
+title: "Registration"
 link: http://exultrochester.org/registration/
 path: /registration/
 author: Dave
