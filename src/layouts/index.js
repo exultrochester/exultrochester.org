@@ -32,6 +32,15 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    <div id="footer" style={{
+      width: "100%",
+      margin: '0 auto',
+      maxWidth: 960,
+    }}>
+      <div style={{ float: "left" }}>2016 Exult Rochester - Catholic Diocese of Rochester, NY</div>
+      <div style={{ float: "right" }}>SOCIAL BUTTONS</div>
+
+    </div>
   </div>
 )
 
