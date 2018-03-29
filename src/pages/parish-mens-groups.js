@@ -1,6 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+const ParagraphIf = ({ children, ...args }) => {
+  if (children) {
+    return <div {...args}>{children}</div>;
+  }
+  return null;
+}
+
 const MensGroupTable = ({ allAirtableMensGroups }) => {
   if (allAirtableMensGroups && allAirtableMensGroups.edges) {
     const rows = allAirtableMensGroups
@@ -34,14 +41,20 @@ const MensGroupTable = ({ allAirtableMensGroups }) => {
                 }
               </td>
               <td>
-                <p>{node.Contact_Name}</p>
-                <p>{node.Contact_Phone}</p>
-                <p>{node.Contact_Email}</p>
-                <p style={{
+                <ParagraphIf>{node.Contact_Name}</ParagraphIf>
+                {node.Contact_Email && (
+                    <p>
+                      <Link
+                        to={`mailto:${node.Contact_Email}`}
+                      >{node.Contact_Email}</Link>
+                    </p>
+                  )
+                }
+                <ParagraphIf>{node.Contact_Phone__Public_}</ParagraphIf>
+                <ParagraphIf style={{
                   whiteSpace: 'pre',
-                  }}>{node.Address}</p>
+                  }}>{node.Address}</ParagraphIf>
               </td>
-            <td><pre>{JSON.stringify(node, null, 2)}</pre></td>
             </tr>
             ))}
           </tbody>
@@ -94,7 +107,7 @@ export const pageQuery = graphql`
         node {
           Group_Name
           Contact_Name
-          Contact_Phone
+          # Contact_Phone__Public_
           Contact_Email
           Parish
           Town
