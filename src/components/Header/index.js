@@ -2,7 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { siteMetadata } from '../../../gatsby-config'
 
-const NLink = ({ to, children, ...props }) => <Link to={to} className="nav-item nav-link"  activeClass="active">{children}</Link>
+const NLink = ({ to, children, ...props }) => (
+    <Link
+      to={to}
+      className="nav-item nav-link"
+      activeClassName="active"
+    >{children}</Link>
+    )
 
 const Header = () => (
     <nav
@@ -20,7 +26,7 @@ const Header = () => (
             Exult Rochester
           </NLink>
           { siteMetadata.nav.map(item => (
-          (!item.disabled) && <NLink to={item.to}>{item.text}</NLink>
+          (!item.disabled) && <NLink to={item.to} key={item.to}>{item.text}</NLink>
           ))}
         </div>
       </div>

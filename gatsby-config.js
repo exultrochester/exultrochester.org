@@ -28,5 +28,15 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: process.env.AIRTABLE_API_KEY,
+        baseId: process.env.AIRTABLE_BASE_ID_GROUPS,
+        tableName: `groups`,
+        tableView: `verified`,
+        queryName: 'MensGroups'
+      }
+    },
   ],
 };
