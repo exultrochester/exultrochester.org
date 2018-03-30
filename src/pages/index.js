@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Logo from '../images/exulttopbar-small.jpg'
 
 const IndexPage = () => (
     <div>
+      <img src={Logo} style={{ float: 'right', }} />
       <h1>Exult Rochester</h1>
       <h2>THANK YOU</h2>
 
