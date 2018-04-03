@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { SocialIcons } from 'react-social-icons';
 
 
 import { siteMetadata } from '../../gatsby-config'
@@ -32,11 +33,13 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
-    <footer className="footer" style={{
-    }}>
-      <div style={{ float: "left" }}>2016 Exult Rochester - Catholic Diocese of Rochester, NY</div>
-      <div style={{ float: "right" }}>SOCIAL BUTTONS</div>
-      <div style={{ clear: "both" }} />
+    <footer className="footer">
+    <div>2016 Exult Rochester - Catholic Diocese of Rochester, NY</div>
+    <div style={{
+      textAlign: "right",
+      }}>
+        <SocialIcons urls={siteMetadata.social} color="rgba(0, 0, 0, 0.75)" />
+      </div>
 
     </footer>
   </div>

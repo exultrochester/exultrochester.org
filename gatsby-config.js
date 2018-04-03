@@ -15,7 +15,7 @@ module.exports = {
       'https://www.facebook.com/exultrochester/',
       'https://www.linkedin.com/in/exultrochester/',
       'https://twitter.com/exultrochester/',
-      'exultrochester@gmail.com',
+      'mailto:exultrochester@gmail.com',
     ],
   },
   plugins: [
