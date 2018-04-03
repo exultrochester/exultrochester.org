@@ -11,12 +11,12 @@ module.exports = {
       { to: '/resources/', text: 'Resources' },
       { to: '/contact/', text: 'Contact' },
     ],
-    social: [
-      'https://www.facebook.com/exultrochester/',
-      'https://www.linkedin.com/in/exultrochester/',
-      'https://twitter.com/exultrochester/',
-      'mailto:exultrochester@gmail.com',
-    ],
+    social: {
+      Facebook: 'https://www.facebook.com/exultrochester/',
+      LinkedIn: 'https://www.linkedin.com/in/exultrochester/',
+      Twitter: 'https://twitter.com/exultrochester/',
+      Email: 'mailto:exultrochester@gmail.com',
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',

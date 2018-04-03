@@ -8,6 +8,8 @@ import { siteMetadata } from '../../gatsby-config'
 import Header from '../components/Header'
 import './index.css'
 
+const toValues = o => Object.keys(o).map(k => o[k]);
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -38,7 +40,7 @@ const TemplateWrapper = ({ children }) => (
     <div style={{
       textAlign: "right",
       }}>
-        <SocialIcons urls={siteMetadata.social} color="rgba(0, 0, 0, 0.75)" />
+        <SocialIcons urls={toValues(siteMetadata.social)} color="rgba(0, 0, 0, 0.75)" />
       </div>
 
     </footer>
