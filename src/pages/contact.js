@@ -33,14 +33,15 @@ const ContactPage = () => (
           P.O. Box 24588<br/>
           Rochester, NY 14624
         </li>
-        { SOCIAL.map(([name, url]) => <li key={url}>
-          <SocialIcon url={url} />
-          &nbsp;
-          {name}
-        </li>) }
+        {
+          SOCIAL.map(([name, url]) => <li key={url}>
+                <SocialIcon url={url} />
+                &nbsp;
+                {name}
+            </li>)
+        }
       </ul>
 
-      <h2>TODO: Guidelines about where's best to contact?</h2>
       <p>May God Bless You and your families.</p>
     </div>
     )
