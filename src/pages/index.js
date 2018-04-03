@@ -32,7 +32,7 @@ const IndexPage = () => (
       </p>
 
       <p>
-        <Link to="/2018/">
+        <Link to="/2018/" style={{ fontWeight: 'bold' }}>
           Our 4th annual conference will be on Saturday, 13 October 2018.
         </Link>
       </p>
