@@ -5,7 +5,7 @@ import { siteMetadata } from '../../../gatsby-config'
 const NLink = ({ to, children, ...props }) => (
     <Link
       to={to}
-      className="nav-item nav-link"
+      className={`nav-item nav-link ${props.className}`}
       activeClassName="active"
     >{children}</Link>
     )
