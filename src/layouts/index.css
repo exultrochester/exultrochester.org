@@ -623,6 +623,10 @@ pre tt:after {
   }
 }
 
+body {
+  background-color: #0AF !important;
+}
+
 #___gatsby nav {
   background-color: #0AF !important;
 }

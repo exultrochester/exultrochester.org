@@ -25,15 +25,21 @@ const TemplateWrapper = ({ children }) => (
         crossorigin="anonymous"/>
     </Helmet>
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+    <div style={{
+      backgroundColor: 'white',
+      width: '100%',
+    }}>
+      <div
+        style={{
+          margin: '0 auto',
+          maxWidth: 960,
+          padding: '0px 1.0875rem 1.45rem',
+          paddingTop: 0,
+          backgroundColor: 'white',
+        }}
+      >
+        {children()}
+      </div>
     </div>
     <footer className="footer">
     <div>2016 Exult Rochester - Catholic Diocese of Rochester, NY</div>
