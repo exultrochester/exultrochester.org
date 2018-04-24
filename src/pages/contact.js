@@ -34,11 +34,13 @@ const ContactPage = () => (
           Rochester, NY 14624
         </li>
         {
-          SOCIAL.map(([name, url]) => <li key={url}>
-                <SocialIcon url={url} />
-                &nbsp;
-                {name}
-            </li>)
+          SOCIAL.map(([name, url]) => (
+            <li key={url}>
+              <SocialIcon url={url} />
+              &nbsp;
+              {name}
+            </li>
+          ))
         }
       </ul>
 
