@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const ParagraphIf = ({ children, ...args }) => {
+const DivIf = ({ children, ...args }) => {
   if (children) {
     return <div {...args}>{children}</div>;
   }
@@ -34,26 +34,26 @@ const MensGroupTable = ({ allAirtableMensGroups }) => {
               <td>
                 {
                   node.Website ? (
-                    <Link to={node.Website}>{node.Group_Name || 'Website'}</Link>
+                    <a href={node.Website}>{node.Group_Name || 'Website'}</a>
                   ) : (
                     node.Group_Name
                   )
                 }
               </td>
               <td>
-                <ParagraphIf>{node.Contact_Name}</ParagraphIf>
+                <DivIf>{node.Contact_Name}</DivIf>
                 {node.Contact_Email && (
                     <p>
-                      <Link
-                        to={`mailto:${node.Contact_Email}`}
-                      >{node.Contact_Email}</Link>
+                      <a
+                        href={`mailto:${node.Contact_Email}`}
+                      >{node.Contact_Email}</a>
                     </p>
                   )
                 }
-                <ParagraphIf>{node.Contact_Phone__Public_}</ParagraphIf>
-                <ParagraphIf style={{
+                <DivIf>{node.Contact_Phone__Public_}</DivIf>
+                <DivIf style={{
                   whiteSpace: 'pre',
-                  }}>{node.Address}</ParagraphIf>
+                  }}>{node.Address}</DivIf>
               </td>
             </tr>
             ))}
