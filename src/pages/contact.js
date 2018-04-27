@@ -23,7 +23,7 @@ const ContactPage = () => (
           &nbsp;
           Email
           &nbsp;
-          <Link to="mailto:ExultRochester@gmail.com">ExultRochester@gmail.com</Link>
+          <a href="mailto:ExultRochester@gmail.com">ExultRochester@gmail.com</a>
         </li>
         <li>
           Call 585-270-0850
