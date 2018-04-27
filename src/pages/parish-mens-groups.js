@@ -8,6 +8,19 @@ const DivIf = ({ children, ...args }) => {
   return null;
 }
 
+const WebsiteLink = ({
+  href,
+  text,
+}) => {
+  if (! href) {
+    return <span>text</span>;
+  }
+  const fixedHref = href.includes('://') ? href : `http://${href}`;
+  return (
+    <a href={fixedHref}>{text || 'Website'}</a>
+  );
+};
+
 const MensGroupTable = ({ allAirtableMensGroups }) => {
   if (allAirtableMensGroups && allAirtableMensGroups.edges) {
     const rows = allAirtableMensGroups
@@ -27,18 +40,12 @@ const MensGroupTable = ({ allAirtableMensGroups }) => {
             </tr>
           </thead>
           <tbody>
-            {rows.map(({ node }) => (
-            <tr key={node.id}>
+            {rows.map(({ node }, index) => (
+            <tr key={index}>
               <td>{node.Town}</td>
               <td>{node.Parish}</td>
               <td>
-                {
-                  node.Website ? (
-                    <a href={node.Website}>{node.Group_Name || 'Website'}</a>
-                  ) : (
-                    node.Group_Name
-                  )
-                }
+                <WebsiteLink href={node.Website} text={node.Group_Name} />
               </td>
               <td>
                 <DivIf>{node.Contact_Name}</DivIf>
