@@ -2,15 +2,9 @@
 title: "About"
 link: http://exultrochester.org/about/
 path: /about/
-author: Dave
 description:
 post_id: 301
-created: 2016/04/11 21:45:53
-created_gmt: 2016/04/12 01:45:53
-comment_status: closed
 post_name: about
-status: publish
-post_type: page
 ---
 
 Exult Rochester was formed in the fall of 2014 with the support of the Catholic Diocese of Rochester, NY.

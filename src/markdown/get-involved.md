@@ -2,15 +2,9 @@
 title: "Get Involved"
 link: http://exultrochester.org/get-involved/
 path: /get-involved/
-author: Dave
 description:
 post_id: 85
-created: 2015/11/30 23:09:22
-created_gmt: 2015/11/30 23:09:22
-comment_status: closed
 post_name: vendors
-status: publish
-post_type: page
 redirect_from:
     - /vendors/
     - /sponsors-2/
