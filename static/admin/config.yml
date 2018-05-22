@@ -1,16 +1,21 @@
 backend:
-  name: test-repo
+  name: github
+  repo: exultrochester/exultrochester.org
 
 media_folder: static/assets
 public_folder: assets
 
+publish_mode: editorial_workflow
+display_url: https://www.exultrochester.org
+
+
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: page
+    label: Page
+    folder: src/markdown
     create: true
     fields:
       - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
