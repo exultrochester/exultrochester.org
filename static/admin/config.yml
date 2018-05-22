@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: exultrochester/exultrochester.org
+
+media_folder: static/assets
+public_folder: assets
+
+publish_mode: editorial_workflow
+display_url: https://www.exultrochester.org
+
+
+collections:
+  - name: page
+    label: Page
+    folder: src/markdown
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
