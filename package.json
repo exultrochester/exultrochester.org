@@ -8,11 +8,13 @@
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-source-airtable": "^0.0.6",
     "gatsby-source-filesystem": "^1.5.26",
     "gatsby-transformer-remark": "^1.7.34",
     "jquery": "^3.3.1",
+    "netlify-cms": "^1.8.0",
     "popper.js": "^1.12.9",
     "react-helmet": "^5.2.0",
     "react-social-icons": "^2.8.1"
