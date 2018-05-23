@@ -6,6 +6,18 @@
 
 const path = require("path");
 
+exports.modifyWebpackConfig = ({ config, stage }) => {
+  console.log("MODIFY WEBPACK CONFIG");
+  console.log(stage);
+  console.log(config);
+  config.merge({
+    resolve: {
+      extensions: ['.json'],
+    }
+  });
+  return config;
+}
+
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
