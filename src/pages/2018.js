@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
+import Link from 'gatsby-link'
 import outdent from 'outdent';
 
 import Speakers from '../components/Speakers'
@@ -122,6 +123,14 @@ const ConferencePage = () => (
         (Includes Morning Snack, Lunch, and Afternoon Snack)
       </p>
     </div>
+
+    <p className="text-center">
+      Want to register by mail?
+      {' '}
+      <Link to="/contect">Contact us</Link>
+      {' '}
+      and we'll let you know when the sign-up form is available (very soon).
+    </p>
 
     {registerLink}
 
