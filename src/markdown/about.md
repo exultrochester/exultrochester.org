@@ -15,10 +15,6 @@ With the help of many people within the diocese, from our Bishop, the Most Rever
 
 ---
 
-TODO: Rewrite the following
-
----
-
 We successfully held our inaugural men's conference in May 2015 at St Judes Catholic Church in Gates, NY.  Over 400 men attended and made the day a great success.
 
 This year, we will be holding our 2nd annual conference on Oct 1, 2016 at St Judes Catholic Church in Gates, NY.
