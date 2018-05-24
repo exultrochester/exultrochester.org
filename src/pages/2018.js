@@ -3,28 +3,15 @@ import ReactMarkdown from 'react-markdown'
 import outdent from 'outdent';
 
 import Speakers from '../components/Speakers'
-
-const RegisterLink = ({ href, text='Register Now!' }) => (
-  <div
-    style={{
-      textAlign: 'center',
-    }}
-  >
-    <a
-      className="btn btn-primary"
-      href={href}
-      role="button"
-    >
-      {text}
-    </a>
-  </div>
-)
+import RegisterLink from '../components/RegisterLink'
 
 const registerLink = (
   <RegisterLink
     href="#"
   />
 );
+
+const MAP_URL = `https://www.google.com/maps/place/St.+Jude+Church/@43.1663474,-77.7404722,17z/data=!4m8!1m2!3m1!2sSt.+Jude+Church!3m4!1s0x89d6b2873cfafb47:0x8cb7c6cd2e16ecce!8m2!3d43.1663473!4d-77.7382781`
 
 const DATA = {
   theme: 'The Eucharist',
@@ -99,44 +86,52 @@ const ConferencePage = () => (
     </p>
     <p className="text-center">
       St Jude the Apostle Church<br/>
-      4100 Lyell Rd<br/>
+      <a href={MAP_URL}>4100 Lyell Rd</a><br/>
       Rochester, NY 14606
     </p>
 
-  <div className="text-center">
-    <div>
-      <strong>
-        Early Bird Registration $40
-      </strong>
+    <div className="text-center">
+      <div>
+        <strong>
+          Early Bird Registration $40
+        </strong>
+      </div>
+      <ul>
+        <li
+          style={{
+            display: 'inline-block',
+            marginRight: '2em',
+          }}>
+          $55 after August 31st
+        </li>
+        <li
+          style={{
+            display: 'inline-block',
+            marginRight: '2em',
+          }}>
+          $60 at the door
+        </li>
+        <li
+          style={{
+            display: 'inline-block',
+          }}>
+          $15 student-age men
+        </li>
+      </ul>
+      <p>
+        (Includes Morning Snack, Lunch, and Afternoon Snack)
+      </p>
     </div>
-    <ul>
-      <li
-        style={{
-          display: 'inline-block',
-          marginRight: '2em',
-        }}>
-        $55 after August 31st
-      </li>
-      <li
-        style={{
-          display: 'inline-block',
-          marginRight: '2em',
-        }}>
-        $60 at the door
-      </li>
-      <li
-        style={{
-          display: 'inline-block',
-        }}>
-        $15 student-age men
-      </li>
-    </ul>
-    <p>
-      (Includes Morning Snack, Lunch, and Afternoon Snack)
-    </p>
-  </div>
 
     {registerLink}
+
+    <p className="text-center">
+      <a
+        href="assets/catholic-men-s-conference-2018-invitation.pdf"
+      >
+        Invitation from Bishop Matano
+      </a>
+    </p>
 
     <Speakers speakers={DATA.speakers} />
 
