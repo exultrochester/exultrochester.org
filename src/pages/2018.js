@@ -136,7 +136,7 @@ const ConferencePage = () => (
 
     <p className="text-center">
       <a
-        href="assets/catholic-men-s-conference-2018-invitation.pdf"
+        href="/assets/catholic-men-s-conference-2018-invitation.pdf"
       >
         Invitation from Bishop Matano
       </a>
