@@ -127,7 +127,7 @@ const ConferencePage = () => (
     <p className="text-center">
       Want to register by mail?
       {' '}
-      <Link to="/contect">Contact us</Link>
+      <Link to="/contact">Contact us</Link>
       {' '}
       and we'll let you know when the sign-up form is available (very soon).
     </p>
