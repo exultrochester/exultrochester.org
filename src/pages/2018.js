@@ -8,7 +8,7 @@ import RegisterLink from '../components/RegisterLink'
 
 const registerLink = (
   <RegisterLink
-    href="#"
+    href="https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465"
   />
 );
 
