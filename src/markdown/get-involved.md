@@ -18,7 +18,7 @@ Parish captains are very important to the overall success of the annual Catholic
 Click on the link below to view which parishes have captains, and which parishes are still in need.   
 
 * [Why Attend the Conference? (2017)](/assets/2017-Exult-Invitation.pdf)
-* [Men Need to be Strong Spiritual Bastions in the Family](http://www.ncregister.com/blog/philip-kosloski/men-need-to-be-strong-spiritual-bastions-in-the-family#ixzz4Co5Hhnv7)
+* [Men Need to be Strong Spiritual Bastions in the Family](http://www.ncregister.com/blog/philip-kosloski/men-need-to-be-strong-spiritual-bastions-in-the-family)
 
 Contact Scott Whitcomb <stwmrw@yahoo.com> today and represent your parish!
 
