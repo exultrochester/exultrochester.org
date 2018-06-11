@@ -16,6 +16,7 @@ const MAP_URL = `https://www.google.com/maps/place/St.+Jude+Church/@43.1663474,-
 
 const DATA = {
   theme: 'The Eucharist',
+  map_url: MAP_URL,
   speakers: [
     {
       name: "Dr. Marcellino D’Ambrosio",
@@ -126,10 +127,14 @@ const ConferencePage = () => (
 
     <p className="text-center">
       Want to register by mail?
+      Print, fill out and send us this
       {' '}
-      <Link to="/contact">Contact us</Link>
-      {' '}
-      and we'll let you know when the sign-up form is available (very soon).
+      <a 
+        href="/assets/2018-RCMC-Registration-Form.pdf"
+      >
+        Mail-in Registration Form
+      </a>
+      .
     </p>
 
     {registerLink}
