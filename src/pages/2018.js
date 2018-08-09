@@ -151,6 +151,14 @@ const ConferencePage = () => (
 
     {registerLink}
 
+    <div className="promotional">
+      <h2>Promotional Materials</h2>
+      <ul>
+        <li><a href="/assets/2018-rcmc-poster.pdf">Poster (Portrait)</a></li>
+        <li><a href="/assets/2018-rcmc-poster-landscape.pdf">Poster (Landscape)</a></li>
+        <li><a href="/assets/2018-rcmc-postcard.pdf">Postcard</a></li>
+      </ul>
+    </div>
   </div>
 )
 
