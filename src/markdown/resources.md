@@ -1,13 +1,9 @@
 ---
-title: "Resources"
-link: http://exultrochester.org/resources/
 path: /resources/
-description:
-post_id: 32
-post_name: resources
+title: Resources
+description: Descriptive Text
 ---
-
-ExultRochester is happy to provide links to great resources to support and enhance your faith journey.
+ExultRochester is happy to provide links to great resources that support and enhance your faith journey.
 
 Please view the links below to choose from many local Diocesan sites, as well as the United States Conference of Catholic Bishops (USCCB) and other national organizations.
 
