@@ -51,7 +51,7 @@ const DATA = {
 }
 
 const registerLink = (
-  <RegisterLink href={register_url} />
+  <RegisterLink href={DATA.register_url} />
 );
 
 // TODO Redirect From /2018-2/
