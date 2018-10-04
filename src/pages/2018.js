@@ -86,7 +86,7 @@ const ConferencePage = () => (
       <br/>
       Doors open at 7:30
       <br/>
-      <a href={agenda_path}>
+      <a href={DATA.agenda_path}>
         Full Agenda
       </a>
     </p>
