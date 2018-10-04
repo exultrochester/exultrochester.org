@@ -6,17 +6,12 @@ import outdent from 'outdent';
 import Speakers from '../components/Speakers'
 import RegisterLink from '../components/RegisterLink'
 
-const registerLink = (
-  <RegisterLink
-    href="https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465"
-  />
-);
-
 const MAP_URL = `https://www.google.com/maps/place/St.+Jude+Church/@43.1663474,-77.7404722,17z/data=!4m8!1m2!3m1!2sSt.+Jude+Church!3m4!1s0x89d6b2873cfafb47:0x8cb7c6cd2e16ecce!8m2!3d43.1663473!4d-77.7382781`
 
 const DATA = {
   theme: 'The Eucharist',
   map_url: MAP_URL,
+  register_url: 'https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465',
   speakers: [
     {
       name: "Dr. Marcellino D’Ambrosio",
@@ -53,6 +48,10 @@ const DATA = {
     },
   ],
 }
+
+const registerLink = (
+  <RegisterLink href={register_url} />
+);
 
 // TODO Redirect From /2018-2/
 
