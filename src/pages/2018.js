@@ -12,6 +12,7 @@ const DATA = {
   theme: 'The Eucharist',
   map_url: MAP_URL,
   register_url: 'https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465',
+  agenda_path: '/assets/RCMC Agenda_2018_Final.pdf'
   speakers: [
     {
       name: "Dr. Marcellino D’Ambrosio",
@@ -84,6 +85,10 @@ const ConferencePage = () => (
       8:30 AM - 4 PM
       <br/>
       Doors open at 7:30
+      <br/>
+      <a href={agenda_path}>
+        Full Agenda
+      </a>
     </p>
     <p className="text-center">
       St Jude the Apostle Church<br/>
