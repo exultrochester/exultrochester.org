@@ -12,7 +12,7 @@ const DATA = {
   theme: 'The Eucharist',
   map_url: MAP_URL,
   register_url: 'https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465',
-  agenda_path: '/assets/RCMC Agenda_2018_Final.pdf'
+  agenda_path: '/assets/RCMC Agenda_2018_Final.pdf',
   speakers: [
     {
       name: "Dr. Marcellino D’Ambrosio",
