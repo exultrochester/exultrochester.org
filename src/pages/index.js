@@ -3,22 +3,28 @@ import Link from 'gatsby-link'
 import Logo from '../images/exulttopbar-small.jpg'
 import RegisterLink from '../components/RegisterLink'
 
+const link = <RegisterLink
+      href="https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465"
+    />
+
+
 const IndexPage = () => (
   <div>
     <img src={Logo} style={{ float: 'right', }} />
     <h1>Exult Rochester</h1>
 
-    <p>Registration is now open for our 2018 conference!</p>
-
     <p>
-      <Link to="/2018/" style={{ fontWeight: 'bold' }}>
-        Our 4th annual conference will be on Saturday, 13 October 2018.
-      </Link>
+    ExultRochester would like to extend a sincere thank you to all the men who attended the 4th annual Catholic Men's Conference on Saturday October 13th.
+    </p>
+    
+    <p>We also would like to thank the many sponsors and supporters of the event, especially Bishop Matano for his prayers, words of encouragement, and continued support. 
+    </p>
+    <p>
+    May Jesus, ever present in the most Holy Eucharist, remain the source and summit of our faith and lead us to live out daily lives as Christian witnesses. 
+
     </p>
 
-    <RegisterLink
-      href="https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465"
-    />
+ 
 
     <p>
       <a
