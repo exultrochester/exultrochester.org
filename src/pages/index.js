@@ -3,10 +3,11 @@ import Link from 'gatsby-link'
 import Logo from '../images/exulttopbar-small.jpg'
 import RegisterLink from '../components/RegisterLink'
 
-const link = <RegisterLink
-      href="https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465"
-    />
-
+const link = (
+  <RegisterLink
+    href="https://www.eventbrite.com/e/rochester-catholic-mens-conference-2018-tickets-44714898465"
+  />
+)
 
 const IndexPage = () => (
   <div>
@@ -14,17 +15,19 @@ const IndexPage = () => (
     <h1>Exult Rochester</h1>
 
     <p>
-    ExultRochester would like to extend a sincere thank you to all the men who attended the 4th annual Catholic Men's Conference on Saturday October 13th.
-    </p>
-    
-    <p>We also would like to thank the many sponsors and supporters of the event, especially Bishop Matano for his prayers, words of encouragement, and continued support. 
+      ExultRochester would like to extend a sincere thank you to all the men
+      who attended the 4th annual Catholic Men's Conference on
+      Saturday, October 13<sup>th</sup>.
     </p>
     <p>
-    May Jesus, ever present in the most Holy Eucharist, remain the source and summit of our faith and lead us to live out daily lives as Christian witnesses. 
-
+      We also would like to thank the many sponsors and supporters of the event,
+      especially Bishop Matano for his prayers, words of encouragement,
+      and continued support. 
     </p>
-
- 
+    <p>
+      May Jesus, ever present in the most Holy Eucharist, remain the source and
+      summit of our faith and lead us to live out our daily lives as Christian witnesses. 
+    </p>
 
     <p>
       <a
