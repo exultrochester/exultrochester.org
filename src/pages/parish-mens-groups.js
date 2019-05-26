@@ -13,7 +13,7 @@ const WebsiteLink = ({
   text,
 }) => {
   if (! href) {
-    return <span>text</span>;
+    return <span>{text}</span>;
   }
   const fixedHref = href.includes('://') ? href : `http://${href}`;
   return (
