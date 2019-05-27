@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Exult Rochester',
     nav: [
-      { to: '/2018/', text: '2018' },
+      { to: '/2019/', text: '2019' },
       { to: '/past-conferences/', text: 'Past Conferences', disabled: true },
       { to: '/parish-mens-groups/', text: 'Parish Men\'s Groups' },
       { to: '/registration', text: 'Registration', disabled: true },

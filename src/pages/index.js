@@ -33,6 +33,9 @@ const IndexPage = () => (
       </li>
     </ul>
 
+    <p>
+      Sat, October 19, 2019, 7:30 AM EDT
+    </p>
     <p>(More information soon!)</p>
     
     <p>
@@ -48,7 +51,7 @@ const IndexPage = () => (
       <a
         href="assets/catholic-men-s-conference-2018-invitation.pdf"
       >
-        Invitation letter from Bishop Matano
+        Last year's (2018) Invitation letter from Bishop Matano
       </a>
     </p>
 
