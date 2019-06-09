@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-const SpeakerRow = ({ image, name, descriptionMarkdown }) => (
+const SpeakerRow = ({ image, name, website, descriptionMarkdown }) => (
   [
     <tr>
       <td colspan="2">
-        <h3>{name}</h3>
+        <h3>
+          <a href={website}>{name}</a>
+        </h3>
       </td>
     </tr>,
 

@@ -1,6 +1,4 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
-import Link from 'gatsby-link'
 import outdent from 'outdent';
 
 import Speakers from '../components/Speakers'
@@ -125,7 +123,7 @@ const ConferencePage = () => (
         </li>
       </ul>
       <p>
-        (Includes Morning Snack, Lunch, and Afternoon Snack)
+        (Includes Light Breakfast & Lunch)
       </p>
     </div>
 
