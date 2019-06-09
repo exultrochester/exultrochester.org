@@ -33,10 +33,9 @@ const IndexPage = () => (
       </li>
     </ul>
 
-    <p>
-      Sat, October 19, 2019, 7:30 AM EDT
-    </p>
-    <p>(More information soon!)</p>
+    <Link to="/2019/" style={{ fontWeight: 'bold' }}>
+      Our 5th annual conference will be on Saturday, 19 October 2019 at 7:30.
+    </Link>
     
     <p>
       {link}
