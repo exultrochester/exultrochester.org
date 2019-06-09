@@ -103,12 +103,24 @@ const ConferencePage = () => (
       {DATA.theme}
     </h1>
 
-    <blockquote className="blockquote text-right">
-      <p className="mb-0">
-        {DATA.tagline}
-      </p>
-
-    </blockquote>
+    {DATA.tagline && (
+      DATA.tagline_cite ? (
+        <blockquote className="blockquote text-right">
+          <p className="mb-0">
+            {DATA.tagline}
+          </p>
+          <footer className="blockquote-footer">
+            <cite title="Source Title">
+              {DATA.tagline_cite}
+            </cite>
+          </footer>
+        </blockquote>
+      ) : (
+        <p className="mb-0">
+          {DATA.tagline}
+        </p>
+      )
+    )}
 
     <p className="text-center">
       <strong>
