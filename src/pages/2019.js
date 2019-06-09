@@ -19,6 +19,14 @@ const DATA = {
       website: undefined,
       descriptionMarkdown: outdent`
         ### "In the home"
+
+        Dr. Ray Guarendi is a Catholic father of ten adopted children, a clinical
+        psychologist, author, professional speaker, and national radio and
+        television host.
+
+        His radio show, "The Dr. Is In" can be heard on over 440 stations and
+        Sirius XM channel 130. His TV show, "Living Right With Dr. Ray" can be
+        seen on EWTN Global Catholic Network and is aired in 140 countries.
         `
     },
     {
@@ -27,6 +35,15 @@ const DATA = {
       website: undefined,
       descriptionMarkdown: outdent`
         ### "Through the Church"
+
+        Tom Nash is a contributing apologist and speaker for Catholic Answers,
+        a contributing blogger for the National Catholic Register and a contributor
+        for Catholic World Report. He has served the Church professionally for more
+        than 25 years, including 8.5 as a theology advisor at EWTN.
+
+        He is the author of _What Did Jesus Do?: The Biblical Roots of the Catholic Church_
+        (Incarnate Word Media) and _The Biblical Roots of the Mass_ (Sophia Institute Press).
+        He is also a regular member of the Fellowship of Catholic Scholars.
         `
     },
     {
@@ -35,6 +52,20 @@ const DATA = {
       website: undefined,
       descriptionMarkdown: outdent`
         ### "In Sports"
+
+        Father Joseph Freedy was born the youngest of five children in Bethel Park,
+        Pennsylvania. Earning a football scholarship to the State University of
+        New York at Buffalo, Father Joseph was the starting quarterback for three
+        years before graduating with a degree in communications.
+
+        After college, he entered Saint Paul Seminary and earned a master's degree
+        in philosophy from Duquesne University. He attended the North American
+        College in Rome for theological studies. Father Freedy earned a bachelor's
+        degree in sacred theology from the Pontifical Gregorian University and a
+        licentiate in sacred theology from the John Paul II Institute.
+
+        In 2008, he was ordained a priest. He is the Parochial Vicar for
+        Holy Child and St. Barbara Parishes in Bridgeville, Pennsylvania.
         `
     },
   ],
