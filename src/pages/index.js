@@ -9,6 +9,29 @@ const link = (
   />
 )
 
+const oldBishopInvite = (
+  <div>
+    <p>
+      <a
+        href="assets/catholic-men-s-conference-2018-invitation.pdf"
+      >
+        Last year's (2018) Invitation letter from Bishop Matano
+      </a>
+    </p>
+
+    <div style={{
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    }}>
+      <iframe
+        src="https://player.vimeo.com/video/290275876?title=0&byline=0&portrait=0"
+        width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+        allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/290275876">Invitation video from Bishop Matano</a></p>
+    </div>
+  </div>
+)
+
 const IndexPage = () => (
   <div>
     <img src={Logo} style={{ float: 'right', }} />
@@ -45,25 +68,6 @@ const IndexPage = () => (
       May Jesus, ever present in the most Holy Eucharist, remain the source and
       summit of our faith and lead us to live out our daily lives as Christian witnesses. 
     </p>
-
-    <p>
-      <a
-        href="assets/catholic-men-s-conference-2018-invitation.pdf"
-      >
-        Last year's (2018) Invitation letter from Bishop Matano
-      </a>
-    </p>
-
-    <div style={{
-      marginLeft: 'auto',
-      marginRight: 'auto',
-    }}>
-      <iframe
-        src="https://player.vimeo.com/video/290275876?title=0&byline=0&portrait=0"
-        width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-        allowfullscreen></iframe>
-      <p><a href="https://vimeo.com/290275876">Invitation video from Bishop Matano</a></p>
-    </div>
 
 <div style={{
   clear: 'both',
