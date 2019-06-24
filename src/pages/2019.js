@@ -80,7 +80,7 @@ const registerLink = (
   <RegisterLink href={DATA.register_url} />
 );
 
-const Promos = ({ items }) => items && (
+const Promos = ({ items }) => items.length && (
   <div className="promotional">
     <h2>Promotional Materials</h2>
     <ul>
