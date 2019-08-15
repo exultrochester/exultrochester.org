@@ -54,6 +54,17 @@ const IndexPage = () => (
       </a>
     </p>
 
+<div style={{
+  clear: 'both',
+}}></div>
+    {
+      // TODO: Mailchimp Sign-up
+    }
+  </div>
+)
+
+/*
+
     <div style={{
       marginLeft: 'auto',
       marginRight: 'auto',
@@ -65,13 +76,7 @@ const IndexPage = () => (
       <p><a href="https://vimeo.com/290275876">Invitation video from Bishop Matano</a></p>
     </div>
 
-<div style={{
-  clear: 'both',
-}}></div>
-    {
-      // TODO: Mailchimp Sign-up
-    }
-  </div>
-)
+
+*/
 
 export default IndexPage
