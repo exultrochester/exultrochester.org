@@ -157,7 +157,7 @@ const ConferencePage = () => (
             display: 'inline-block',
             marginRight: '2em',
           }}>
-          $55 after August 31st
+          $55 after September 19th
         </li>
         <li
           style={{
