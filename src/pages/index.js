@@ -78,20 +78,4 @@ const IndexPage = () => (
   </div>
 )
 
-/*
-
-    <div style={{
-      marginLeft: 'auto',
-      marginRight: 'auto',
-    }}>
-      <iframe
-        src="https://player.vimeo.com/video/290275876?title=0&byline=0&portrait=0"
-        width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-        allowfullscreen></iframe>
-      <p><a href="https://vimeo.com/290275876">Invitation video from Bishop Matano</a></p>
-    </div>
-
-
-*/
-
 export default IndexPage
