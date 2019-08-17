@@ -133,6 +133,8 @@ const ConferencePage = () => (
       <br/>
       8:30 AM Mass with The Most Reverend Bishop Salvatore Matano
       <br/>
+      Conference ends at 4:00 PM
+      <br/>
       {DATA.agenda_path && (
         <a href={DATA.agenda_path}>
           Full Agenda
