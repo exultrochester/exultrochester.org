@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-favicon": "^2.1.1",
@@ -13,7 +13,7 @@
     "gatsby-source-airtable": "^0.0.6",
     "gatsby-source-filesystem": "^1.5.26",
     "gatsby-transformer-remark": "^1.7.34",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "netlify-cms": "^1.8.0",
     "outdent": "^0.5.0",
     "popper.js": "^1.12.9",
