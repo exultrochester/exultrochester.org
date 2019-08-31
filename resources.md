@@ -3,7 +3,7 @@ path: /resources/
 title: Resources
 description: Descriptive Text
 ---
-ExultRochester is happy to provide links to great resources that support and enhance your faith journey.
+Exult Rochester is happy to provide links to great resources that support and enhance your faith journey.
 
 Please view the links below to choose from many local Diocesan sites, as well as the United States Conference of Catholic Bishops (USCCB) and other national organizations.
 
