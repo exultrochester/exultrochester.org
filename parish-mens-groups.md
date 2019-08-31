@@ -51,5 +51,3 @@ Is your parish men\'s group not listed here?
 {% endfor -%}
 </tbody>
 </table>
-
-{{ parishMensGroups | debug }}
