@@ -1,6 +1,5 @@
 ---
 register_url: https://rcmc2019.eventbrite.com/
-layout: layout
 ---
 <img src="/images/exulttopbar-small.jpg" style="float: right" />
 
