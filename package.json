@@ -1,34 +1,17 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "exultrochester.org",
+  "description": "The Exultrochester.org website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ed Brannin",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gatsby": "^1.9.223",
-    "gatsby-link": "^1.6.38",
-    "gatsby-plugin-favicon": "^2.1.1",
-    "gatsby-plugin-netlify-cms": "^2.0.1",
-    "gatsby-plugin-react-helmet": "^2.0.6",
-    "gatsby-source-airtable": "^0.0.6",
-    "gatsby-source-filesystem": "^1.5.26",
-    "gatsby-transformer-remark": "^1.7.34",
-    "jquery": "^3.4.1",
-    "netlify-cms": "^1.8.0",
-    "outdent": "^0.5.0",
-    "popper.js": "^1.12.9",
-    "react-helmet": "^5.2.0",
-    "react-markdown": "^3.3.2",
-    "react-social-icons": "^2.8.1"
+    "@11ty/eleventy": "^0.9.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": [],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "eleventy",
+    "serve": "eleventy --serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

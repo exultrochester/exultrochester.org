@@ -627,19 +627,19 @@ body {
   background-color: #0AF !important;
 }
 
-#___gatsby nav {
+nav {
   background-color: #0AF !important;
 }
 
-#___gatsby .nav-link.active {
+.nav-link.active {
   font-weight: bold;
 }
 
-#___gatsby .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.75);
 }
 
-#___gatsby a.nav-link {
+a.nav-link {
 }
 
 .footer {
@@ -652,4 +652,9 @@ body {
 .footer > div {
   display: table-cell;
   vertical-align: middle;
+}
+
+.no-bullets li {
+  list-style: none;
+  margin-bottom: 0;
 }

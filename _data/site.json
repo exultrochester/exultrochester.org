@@ -1,0 +1,50 @@
+{
+  "title": "Exult Rochester",
+  "nav": [
+    {
+      "to": "/",
+      "text": "Exult Rochester",
+      "cssClass": "navbar-brand"
+    },
+    {
+      "to": "/2019/",
+      "text": "2019"
+    },
+    {
+      "to": "/past-conferences/",
+      "text": "Past Conferences",
+      "disabled": true
+    },
+    {
+      "to": "/parish-mens-groups/",
+      "text": "Parish Men's Groups"
+    },
+    {
+      "to": "/registration",
+      "text": "Registration",
+      "disabled": true
+    },
+    {
+      "to": "/get-involved/",
+      "text": "Get Involved"
+    },
+    {
+      "to": "/about/",
+      "text": "About"
+    },
+    {
+      "to": "/resources/",
+      "text": "Resources"
+    },
+    {
+      "to": "/contact/",
+      "text": "Contact"
+    }
+  ],
+  "social": {
+    "Facebook": "https://www.facebook.com/exultrochester/",
+    "LinkedIn": "https://www.linkedin.com/in/exultrochester/",
+    "Twitter": "https://twitter.com/exultrochester/",
+    "Email": "mailto:exultrochester@gmail.com"
+  }
+}
