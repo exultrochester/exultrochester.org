@@ -7,6 +7,8 @@ post_id: 301
 post_name: about
 ---
 
+# About
+
 Exult Rochester was formed in the fall of 2014 with the support of the Catholic Diocese of Rochester, NY.
 
 Our mission is simple; support men along their faith journey and support the formation and growth of parish-based men’s groups.

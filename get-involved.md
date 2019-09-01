@@ -11,6 +11,8 @@ redirect_from:
     - /parish-captains/
 ---
 
+# Get Involved
+
 ## Parish Captains
 
 Parish captains are very important to the overall success of the annual Catholic Diocese of Rochester's Men's Conference. Volunteering to represent your parish is a great way to contribute to the annual conference, represent your parish, and meet fellow parishioners who may be interested in attending the men's conference and even getting involved in a parish-based men's group. While many men have signed up to represent their parishes, more parish captains are needed.
