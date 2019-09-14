@@ -20,8 +20,7 @@ Parish captains are very important to the overall success of the annual Catholic
 Click on the link below to view which parishes have captains, and which parishes are still in need.   
 
 * Parish Captains
-* TODO: Parishes in Need
-
+  * (Coming soon: Parishes in need of a captain)
 * [Why Attend the Conference? (2017)](/assets/2017-Exult-Invitation.pdf)
 * [Men Need to be Strong Spiritual Bastions in the Family](http://www.ncregister.com/blog/philip-kosloski/men-need-to-be-strong-spiritual-bastions-in-the-family)
 
