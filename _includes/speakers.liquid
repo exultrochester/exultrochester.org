@@ -1,0 +1,25 @@
+<table>
+<tbody>
+{% for speaker in speakers %}<tr>
+<td colspan="2">
+<h3>
+{% if speaker.website %}
+<a href="{{ speaker.website }}">{{ speaker.name }}</a>
+{% else %}
+{{ speaker.name }}
+{% endif %}
+</h3>
+</td>
+</tr>
+<tr>
+<td style="width: 25%">
+<img src="{{ speaker.image }}" />
+</td>
+<td>
+
+{{ speaker.descriptionMarkdown }}
+
+</td>
+</tr>{% endfor %}
+</tbody>
+</table>

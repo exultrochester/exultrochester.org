@@ -1,0 +1,18 @@
+{% if tagline %}
+  {% if tagline_cite %}
+<blockquote class="blockquote text-right">
+  <p class="mb-0">
+    {{ tagline }}
+  </p>
+  <footer class="blockquote-footer">
+    <cite title="Source Title">
+      {{ tagline_cite }}
+    </cite>
+  </footer>
+</blockquote>
+  {% else %}
+<p class="mb-0">
+  {{ tagline }}
+</p>
+  {% endif %}
+{% endif %}
