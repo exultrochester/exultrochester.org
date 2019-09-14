@@ -17,6 +17,17 @@ module.exports = function(eleventyConfig) {
     'css',
   ]);
 
+  const markdownIt = require('markdown-it');
+  const markdownItAnchor = require('markdown-it-anchor');
+  eleventyConfig.setLibrary("md",
+    markdownIt({
+      html: true,
+      linkify: true,
+      typographer: true,
+    }).use(markdownItAnchor, {})
+  );
+
+
   eleventyConfig.addShortcode("navLink", function({ to, text, disabled, cssClass }, page) {
     if (disabled) {
       return '';
