@@ -1,0 +1,16 @@
+<h2 id="agenda" style="text-align: center; margin-top: 1em;">Agenda</h2>
+<table class="agenda">
+<tbody>
+{% for agenda_item in agenda %}<tr>
+<td class="start time">{{ agenda_item.start }}</td>
+<td class="time dash">&ndash;</td>
+<td class="end time">{{ agenda_item.end }}</td>
+<td class="text">{% for line in agenda_item.lines_markdown %}
+
+{{ line }}
+
+{% endfor %}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>

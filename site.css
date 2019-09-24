@@ -100,3 +100,42 @@ g.social-svg-icon, g.social-svg-background {
 footer .social-footer .social-svg-mask {
   fill:rgba(0, 0, 0, 0.75);
 }
+
+table.agenda {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.agenda td.time {
+  font-weight: bold;
+  padding: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.agenda td.time.end {
+  text-align: right;
+}
+
+.agenda td.time.end:after {
+  content: ":";
+}
+
+.agenda td.time.dash {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.agenda td.time {
+  font-weight: bold;
+}
+
+.agenda td {
+  vertical-align: text-top;
+}
+
+
+.agenda td.text p:last-of-type {
+  margin-bottom: 0;
+}
+
