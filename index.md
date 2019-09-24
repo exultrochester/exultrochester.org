@@ -18,7 +18,16 @@ register_url: https://rcmc2019.eventbrite.com/
 
 **[Our 5th annual conference will be on Saturday, 19 October 2019 at 7:30.](/2019)**
 
-{% include register-link %}
+<div class="buttons">
+<a class="btn btn-outline-primary" href="/2019" role="button">
+More Information
+</a>
+<a class="btn btn-primary" href="{{ register_url }}" role="button">
+{{ register_text | default: 'Register Now!' }}
+</a>
+</div>
+
+&nbsp;
 
 ## A short message from Dr. Ray Guarendi
 
