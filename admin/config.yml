@@ -12,7 +12,7 @@ display_url: https://www.exultrochester.org
 collections:
   - name: page
     label: Page
-    folder: src/markdown
+    folder: /
     create: true
     fields:
       - { name: path, label: Path }
