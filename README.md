@@ -1,12 +1,6 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Exult Rochester
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+This is the website for the Rochester Catholic Men's Conference
 
 ## Deploy
 
@@ -16,6 +10,11 @@ gatsby new gatsby-example-site
 
 - Rollbar for error-detection
 - Fix stale data below
+- Nicer template?
+    - https://html5up.net/
+    - https://templated.co/
+    - https://bootswatch.com/
+    - http://getskeleton.com/
 
 
 * RSS Feed for page changes & blog posts
