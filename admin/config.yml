@@ -14,10 +14,10 @@ collections:
     filter: { field: type, value: conference }
     folder: /
     create: true
+    identifier_field: year
     fields:
-      - { name: year, label: Year, pattern: "2\\d{3}" }
-      - { name: title, label: Title }
       - { name: description, label: Description }
+      - { name: year, label: Year, widget: number, min: 2016, max: 2100 }
       - { name: body, label: Body, widget: markdown }
       - { name: theme, label: Theme }
       - { name: tagline, label: Tagline }
