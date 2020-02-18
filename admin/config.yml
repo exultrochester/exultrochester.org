@@ -31,9 +31,7 @@ collections:
         optional: true
         fields:
           - { name: name, label: Name }
-          - name: image
-            label: Image
-            widget: Image
+          - { name: image, label: Image, widget: image }
           - { name: descriptionMarkdown, label: Description, widget: markdown }
       #- name: promos
         #optional: true
