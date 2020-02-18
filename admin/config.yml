@@ -32,7 +32,7 @@ collections:
         optional: true
         fields:
           - { name: name, label: Name }
-          - image: name
+          - name: image
             label: Image
             widget: Image
           - { name: descriptionMarkdown, label: Description, widget: markdown }
