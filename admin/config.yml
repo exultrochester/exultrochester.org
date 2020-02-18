@@ -16,7 +16,6 @@ collections:
     create: true
     identifier_field: year
     fields:
-      - { name: description, label: Description }
       - { name: year, label: Year, widget: number, min: 2016, max: 2100 }
       - { name: body, label: Body, widget: markdown }
       - { name: theme, label: Theme }
