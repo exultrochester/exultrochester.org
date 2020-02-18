@@ -8,8 +8,46 @@ public_folder: assets
 publish_mode: editorial_workflow
 display_url: https://www.exultrochester.org
 
-
 collections:
+  - name: conference
+    label: Conference
+    filter: { field: type, value: conference }
+    folder: /
+    create: true
+    fields:
+      - { name: year, label: Year, pattern: "2\\d{3}" }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+      - { name: theme, label: Theme }
+      - { name: tagline, label: Tagline }
+      - name: map_url
+        label: "Map URL"
+        default: https://www.google.com/maps/place/St.+Jude+Church/@43.1663474,-77.7404722,17z/data=!4m8!1m2!3m1!2sSt.+Jude+Church!3m4!1s0x89d6b2873cfafb47:0x8cb7c6cd2e16ecce!8m2!3d43.1663473!4d-77.7382781
+      - name: register_url
+        label: "Registration URL" 
+      - name: speakers
+        label: Speakers
+        widget: list
+        optional: true
+        fields:
+          - { name: name, label: Name }
+          - image: name
+            label: Image
+            widget: Image
+          - { name: descriptionMarkdown, label: Description, widget: markdown }
+      #- name: promos
+        #optional: true
+        #widget: list
+        #fields:
+          #- { name: name, label: Name }
+      - name: agenda
+        optional: true
+        widget: list
+        fields:
+          - { name: start, label: Start }
+          - { name: end, label: End }
+          - { name: lines_markdown, label: "Lines", widget: markdown }
   - name: page
     label: Page
     folder: /
