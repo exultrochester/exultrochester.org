@@ -27,12 +27,19 @@ module.exports = function(eleventyConfig) {
     }).use(markdownItAnchor, {})
   );
 
+  const exultRochesterBranding = () => `<span class="exult">Exult</span><span class="rochester">Rochester</span>`;
+  eleventyConfig.addShortcode('exultrochester', exultRochesterBranding);
+
 
   eleventyConfig.addShortcode("navLink", function({ to, text, disabled, cssClass }, page) {
     if (disabled) {
       return '';
     }
-    return `<a href="${to}" class="nav-item nav-link ${cssClass} ${page.url == to ? 'active' : ''}">${text}</a>`;
+    let linkText = text;
+    if (text.toLowerCase() === 'exultrochester') {
+      linkText = exultRochesterBranding();
+    }
+    return `<a href="${to}" class="nav-item nav-link ${cssClass} ${page.url == to ? 'active' : ''}">${linkText}</a>`;
   });
 
   eleventyConfig.addShortcode("ExternalLink", function(href, text) {

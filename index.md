@@ -3,7 +3,7 @@ register_url: https://rcmc2019.eventbrite.com/
 ---
 <img src="/images/exulttopbar-small.jpg" style="float: right" />
 
-# Exult Rochester
+# {% exultrochester %}
 
 ## 2019 Registration is now live!
 

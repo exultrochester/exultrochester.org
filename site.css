@@ -142,3 +142,12 @@ table.agenda {
 .buttons {
   text-align: center;
 }
+
+.exult {
+  font-weight: bold;
+}
+
+.rochester {
+  font-style: italic;
+  font-weight: normal;
+}
