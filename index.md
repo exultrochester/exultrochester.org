@@ -25,7 +25,7 @@ More Information
 May Jesus, ever present in the most Holy Eucharist, remain the source and
 summit of our faith and lead us to live out our daily lives as Christian witnesses. 
 
-<div style="clear: both;" />
+<div style="clear: both;"></div>
 
 {% comment %}
 // TODO: Mailchimp Sign-up

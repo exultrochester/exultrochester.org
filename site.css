@@ -151,3 +151,13 @@ table.agenda {
   font-style: italic;
   font-weight: normal;
 }
+
+body.body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;    /* same as flex-grow: 1; */
+}
