@@ -7,6 +7,14 @@ register_url: https://rcmc2019.eventbrite.com/
 
 ## 2020 Online Conference: Coming Soon!
 
+Registration for our 2020 online conference will be open soon!
+
+Save the date:
+
+Saturday October 17, 2020
+
+7:30 AM  - 12:30 PM
+
 {% comment %}
 **[Our 5th annual conference will be on Saturday, 19 October 2019 at 7:30.](/2019)**
 
