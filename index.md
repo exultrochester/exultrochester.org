@@ -1,25 +1,23 @@
 ---
-register_url: https://rcmc2019.eventbrite.com/
+register_url: https://rcmc2020.eventbrite.com/
 ---
 <img src="/images/exulttopbar-small.jpg" style="float: right" />
 
 # {% exultrochester %}
 
-## 2020 Online Conference: Coming Soon!
+## 2020 Online Conference: Register now!
 
-Registration for our 2020 online conference will be open soon!
+Registration for our 2020 online conference is now open!
 
-Save the date:
-
-Saturday October 17, 2020
-
+**Saturday October 17, 2020** \
 7:30 AM  - 12:30 PM
 
 {% comment %}
 **[Our 5th annual conference will be on Saturday, 19 October 2019 at 7:30.](/2019)**
+{% endcomment %}
 
 <div class="buttons">
-<a class="btn btn-outline-primary" href="/2019" role="button">
+<a class="btn btn-outline-primary" href="/2020" role="button">
 More Information
 </a>
 <a class="btn btn-primary" href="{{ register_url }}" role="button">
@@ -28,7 +26,6 @@ More Information
 </div>
 
 &nbsp;
-{% endcomment %}
 
 May Jesus, ever present in the most Holy Eucharist, remain the source and
 summit of our faith and lead us to live out our daily lives as Christian witnesses. 
