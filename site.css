@@ -161,3 +161,15 @@ body.body {
 .content-wrapper {
   flex: 1;    /* same as flex-grow: 1; */
 }
+
+.speaker-heading .name {
+  margin-bottom: 0;
+}
+
+.speaker-heading .tagline {
+
+}
+
+.conference-title img {
+  margin-bottom: 0;
+}

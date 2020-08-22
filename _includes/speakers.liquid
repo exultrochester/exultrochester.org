@@ -1,14 +1,15 @@
 <table id="speakers">
 <tbody>
 {% for speaker in speakers %}<tr>
-<td colspan="2">
-<h3>
-{% if speaker.website %}
-<a href="{{ speaker.website }}">{{ speaker.name }}</a>
-{% else %}
-{{ speaker.name }}
-{% endif %}
+<td colspan="2" class="speaker-heading">
+<h3 class="name">
+  {% if speaker.website -%}
+  <a href="{{ speaker.website }}">{{ speaker.name }}</a>
+  {%- else -%}
+  <span>{{ speaker.name }}</span>
+  {%- endif -%}
 </h3>
+{%- if speaker.tagline %}<div class="tagline">{{ speaker.tagline }}</div>{% endif %}
 </td>
 </tr>
 <tr>
