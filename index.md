@@ -76,7 +76,7 @@ agenda:
 * **Saturday, October 23, 2021**
 * 7:30 AM - 12:30 PM
 * Doors open at 7:00
-* 8:30 AM Mass with The Most Reverend Bishop Salvatore Matano FIXME
+* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
 * Conference ends at 12:30 PM
 * Online simulcast available
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
