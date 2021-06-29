@@ -8,12 +8,12 @@ map_url: https://www.google.com/maps/place/St.+Jude+Church/@43.1663474,-77.74047
 register_url: https://rcmc2021.eventbrite.com/
 speakers:
 - name: Deacon Thomas Jack
-  image: https://placekitten.com/500/500
+  image: https://placekitten.com/500
   # image: /assets/dr-ray-guarendi.png
   descriptionMarkdown: |
     TODO FIXME
 - name: Dr. Mark Miravalle
-  image: https://placekitten.com/500/500
+  image: https://placekitten.com/499
   #image: /assets/tom-nash.png
   descriptionMarkdown: |
     TODO FIXME
