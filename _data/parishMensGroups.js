@@ -1,11 +1,18 @@
 const Airtable = require('airtable');
 
-const base = new Airtable({
-  apiKey: process.env.AIRTABLE_API_KEY
-}).base(process.env.AIRTABLE_BASE_ID_GROUPS);
-
 module.exports = async () => {
   const answer = [];
+
+  const { AIRTABLE_API_KEY, AIRTABLE_BASE_ID_GROUPS } = process.env;
+
+  if (!AIRTABLE_API_KEY || !AIRTABLE_BASE_ID_GROUPS) {
+    console.warn(`AIRTABLE_API_KEY and AIRTABLE_BASE_ID_GROUPS are not set: unable to load Parish Men's Groups!`);
+    return [];
+  }
+
+  const base = new Airtable({
+    apiKey: process.env.AIRTABLE_API_KEY
+  }).base(process.env.AIRTABLE_BASE_ID_GROUPS);
 
   return new Promise((resolve, reject) => {
     base('groups').select({
