@@ -13,10 +13,17 @@ speakers:
   descriptionMarkdown: |
     TODO FIXME
 - name: Dr. Mark Miravalle
-  image: https://placekitten.com/499
-  #image: /assets/tom-nash.png
+  image: /assets/mark-miravalle-flipped.png
   descriptionMarkdown: |
-    TODO FIXME
+    Dr. Mark Miravalle earned his Sacred Theological Doctorate at the Pontifical University of St. Thomas in Rome. He holds the Saint John Paull II Chair of Mariology at Franciscan University of Steubenville, where he has been teaching since 1986. 
+
+    Dr. Miravalle is the founder and senior editor of Ecce Mater Tua, an international journal of Mariology research. He is also president of the International Marian Association, comprised of more than 130 theologians, bishops, clergy, and laity worldwide who seek to promote Marian devotion and doctrine.
+
+    Well known throughout the world for his lectures on Mariology, Dr. Miravalle has addressed several Episcopal conferences, including those of South India, Nigeria, Venezuela, and Costa Rica. He has also assisted bishops with preliminary investigations into reported apparitions.
+
+    Dr. Miravalle has spoken at numerous international conferences and has appeared on EWTN, National Public Radio, BBC and Fox News. 
+
+    Dr. Miravalle is the author and editor of over 20 books in Mariology and Spiritual Theology, including his most recent works, Meet Your Mother: An Introduction to Mary, Meet Your Spiritual Father: An Introduction to St. Joseph; Time to Meet the Angels, and Jesus in You: The Indwelling Trinity in the Souls of the Just. 
 promos: []
 agenda:
   - start: "7:00"
