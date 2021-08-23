@@ -99,24 +99,15 @@ Rochester, NY 14606
 </div>
 
 <div class="text-center">
-  <div>
-    <strong>
-      Early Bird Registration $45 FIXME
-    </strong>
-  </div>
   <ul class="no-bullets">
-    <li
-      style={{
-        display: 'inline-block',
-        marginRight: '2em',
-      }}>
-      $55 after September 19th FIXME
+    <li style="display: 'inline-block'">
+      $15 Livestream
     </li>
-    <li
-      style={{
-        display: 'inline-block',
-      }}>
-      $15 for student-age men FIXME
+    <li style="display: 'inline-block'">
+      $25 In-person
+    </li>
+    <li style="display: 'inline-block'">
+      $30 at the door
     </li>
   </ul>
   <p>
