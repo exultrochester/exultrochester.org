@@ -28,7 +28,7 @@ register_url_online: https://rcmc2021-online.eventbrite.com/
 
 <div class="text-center">
 
-St Jude the Apostle Church\
+The Parish of the Holy Family at St. Jude\
 [4100 Lyell Rd]({{ map_url }})\
 Rochester, NY 14606
 
