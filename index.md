@@ -1,6 +1,7 @@
 ---
 path: /
 year: 2021
+register_url_online: https://rcmc2021-online.eventbrite.com/
 ---
 
 
@@ -51,17 +52,17 @@ Rochester, NY 14606
   </p>
 </div>
 
-{% include register-link %}
+{% include register-links %}
 
 {% include speakers %}
 
-{% include register-link %}
+{% include register-links %}
 
 {% comment %}<Promos items={DATA.promos} />{% endcomment -%}
 
 {% if agenda %}
 {% include agenda %}
-{% include register-link %}
+{% include register-links %}
 {% endif %}
 
 &nbsp;
