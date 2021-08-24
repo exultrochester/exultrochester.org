@@ -46,7 +46,7 @@ Rochester, NY 14606
   </ul>
   <p>
     (Includes a light snack)<br/>
-    <a href="#agenda">See Agenda below</a>
+    {% if agenda %}<a href="#agenda">See Agenda below</a>{% endif %}
   </p>
 </div>
 
@@ -58,9 +58,10 @@ Rochester, NY 14606
 
 {% comment %}<Promos items={DATA.promos} />{% endcomment -%}
 
+{% if agenda %}
 {% include agenda %}
-
 {% include register-link %}
+{% endif %}
 
 &nbsp;
 

@@ -18,7 +18,7 @@ speakers:
 
     Dr. Miravalle is the author and editor of over 20 books in Mariology and Spiritual Theology, including his most recent works, Meet Your Mother: An Introduction to Mary, Meet Your Spiritual Father: An Introduction to St. Joseph; Time to Meet the Angels, and Jesus in You: The Indwelling Trinity in the Souls of the Just. 
 promos: []
-agenda:
+agenda_HIDDEN:
   - start: "7:00"
     end: "7:55"
     lines_markdown:
