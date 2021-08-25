@@ -1,5 +1,5 @@
 const getConferenceValue = (name) => (data) => {
-  console.log('Computing:', { name, data });
+  // console.log('Computing:', { name, data });
   if (data[name]) {
     return data[name];
   }
