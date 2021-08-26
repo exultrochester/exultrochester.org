@@ -6,6 +6,17 @@ This is the website for the Rochester Catholic Men's Conference
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
+
+## Making Changes
+
+* Moat pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/)
+* Some pages also use [Liquid template](https://shopify.github.io/liquid/) tags.
+
+### Running Locally
+
+1. `npm install`
+2. `npm run serve`
+
 ## TODO
 
 - Rollbar for error-detection
