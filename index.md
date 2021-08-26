@@ -1,29 +1,69 @@
 ---
-register_url: https://rcmc2020.eventbrite.com/
+path: /
+year: 2021
+register_url_online: https://rcmc2021-online.eventbrite.com/
 ---
+
+
 <img src="/images/exulttopbar-small.jpg" style="float: right" />
 
 # {% exultrochester %}
 
-## 2020 Online Conference: Register now!
+## 2021 Rochester Catholic Men's Conference
 
-Registration for our 2020 online conference is now open!
+# {{ theme }} - {{ tagline }}
 
-**Saturday October 17, 2020** \
-7:30 AM  - 12:30 PM
+<div class="text-center no-bullets">
 
-{% comment %}
-**[Our 5th annual conference will be on Saturday, 19 October 2019 at 7:30.](/2019)**
-{% endcomment %}
+* **Saturday, October 23, 2021**
+* 7:30 AM - 12:30 PM
+* Doors open at 7:00
+* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano,
+* Followed by a talk by Dr. Miravalle
+* Conference ends at 12:30 PM
+* Online simulcast available
+{% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
 
-<div class="buttons">
-<a class="btn btn-outline-primary" href="/2020" role="button">
-More Information
-</a>
-<a class="btn btn-primary" href="{{ register_url }}" role="button">
-{{ register_text | default: 'Register Now!' }}
-</a>
 </div>
+
+<div class="text-center">
+
+The Parish of the Holy Family at St. Jude\
+[4100 Lyell Rd]({{ map_url }})\
+Rochester, NY 14606
+
+</div>
+
+<div class="text-center">
+  <ul class="no-bullets">
+    <li style="display: 'inline-block'">
+      $15 Livestream
+    </li>
+    <li style="display: 'inline-block'">
+      $25 In-person
+    </li>
+    <li style="display: 'inline-block'">
+      $30 at the door
+    </li>
+  </ul>
+  <p>
+    {% comment %}(Includes a light snack)<br/> {% endcomment %}
+    {% if agenda %}<a href="#agenda">See Agenda below</a>{% endif %}
+  </p>
+</div>
+
+{% include register-links %}
+
+{% include speakers %}
+
+{% include register-links %}
+
+{% comment %}<Promos items={DATA.promos} />{% endcomment -%}
+
+{% if agenda %}
+{% include agenda %}
+{% include register-links %}
+{% endif %}
 
 &nbsp;
 

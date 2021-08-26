@@ -7,8 +7,8 @@
       "cssClass": "navbar-brand"
     },
     {
-      "to": "/2020/",
-      "text": "2020"
+      "to": "/",
+      "text": "2021"
     },
     {
       "to": "/past-conferences/",

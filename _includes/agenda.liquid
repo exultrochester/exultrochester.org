@@ -3,7 +3,7 @@
 <tbody>
 {% for agenda_item in agenda %}<tr>
 <td class="start time">{{ agenda_item.start }}</td>
-<td class="time dash">&ndash;</td>
+<td class="time dash">{% if agenda_item.start and agenda_item.end %}&ndash;{% endif %}</td>
 <td class="end time">{{ agenda_item.end }}</td>
 <td class="text">{% for line in agenda_item.lines_markdown %}
 
