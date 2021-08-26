@@ -47,7 +47,7 @@ Rochester, NY 14606
     </li>
   </ul>
   <p>
-    (Includes a light snack)<br/>
+    {% comment %}(Includes a light snack)<br/> {% endcomment %}
     {% if agenda %}<a href="#agenda">See Agenda below</a>{% endif %}
   </p>
 </div>
