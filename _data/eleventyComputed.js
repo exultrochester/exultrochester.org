@@ -18,6 +18,7 @@ module.exports = {
   tagline: getConferenceValue('tagline'),
   map_url: getConferenceValue('map_url'),
   register_url: getConferenceValue('register_url'),
+  register_by_mail_path: getConferenceValue('register_by_mail_path'),
   speakers: getConferenceValue('speakers'),
   promos: getConferenceValue('promos'),
   agenda: getConferenceValue('agenda'),

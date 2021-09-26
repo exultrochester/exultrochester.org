@@ -6,3 +6,8 @@
     {{ register_text | default: 'Register Now!<br>(Livestream)' }}
   </a>
 </div>
+{% if register_by_mail_path %}
+<p style="text-align: center">
+  Or <a href="{{register_by_mail_path}}">mail a check with this form</a>
+</p>
+{% endif %}
