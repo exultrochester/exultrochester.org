@@ -19,20 +19,21 @@ speakers:
     Dr. Miravalle has spoken at numerous international conferences and has appeared on EWTN, National Public Radio, BBC and Fox News. 
 
     Dr. Miravalle is the author and editor of over 20 books in Mariology and Spiritual Theology, including his most recent works, Meet Your Mother: An Introduction to Mary, Meet Your Spiritual Father: An Introduction to St. Joseph; Time to Meet the Angels, and Jesus in You: The Indwelling Trinity in the Souls of the Just. 
+- name: Fr. Matthew Walter
+  website:
+  image: /assets/fr-matt-walter.png
+  descriptionMarkdown: |
+    TODO
 promos: []
-agenda_HIDDEN:
+agenda:
   - start: "7:00"
-    end: "7:55"
+    end: "8:00"
     lines_markdown:
       - Registration
   - start: "7:30"
     end: "7:50"
     lines_markdown:
       - Rosary
-  - start: "7:55"
-    end: "8:00"
-    lines_markdown:
-      - Welcoming Remarks by Fr. McGrath
   - start: "8:00"
     end: "9:30"
     lines_markdown:
@@ -40,25 +41,34 @@ agenda_HIDDEN:
   - start: "9:30"
     end: "10:00"
     lines_markdown:
-      - Break (15 minutes)
-      # - Confessions begin at 10:05 - FIXME maybe?
-  - start: "10:00"
+      - Welcoming Remarks by Fr. McGrath
+      - Breakfast snack & beverages
+  - start: "9:30"
     end: "11:00"
     lines_markdown:
-      - "**Speaker #1 - Dr. Mark Miravalle**"
-  - start: "11:00"
-    end: "11:15"
+      - Confession in Faith Formation rooms
+  - start: "10:00"
+    end: "10:30"
     lines_markdown:
-      - Break (15 minutes)
-  - start: "11:15"
+      - "**Speaker #1 - Fr. Matthew Walter**"
+  - start: "10:30"
+    end: "10:45"
+    lines_markdown:
+      - Men's Group acknowledgement
+      - Confession ends at 10:45
+  - start: "10:45"
+    end: "11:45"
+    lines_markdown:
+      - "**Speaker #2 - Dr. Mark Miravalle**"
+  - start: "11:45"
+    end: "12:05"
+    lines_markdown:
+      - Q&A
+  - start: "12:05"
     end: "12:15"
     lines_markdown:
-      - "TBA"
-  - start: "12:15"
-    end: "12:30"
-    lines_markdown:
       - Announcements, closing remarks
-  - # start: "12:30"
-    end: "12:30"
+  - #start: "12:00"
+    end: "12:15"
     lines_markdown:
-      - Adjourn
+  - Adjourn
