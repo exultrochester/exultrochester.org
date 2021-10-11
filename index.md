@@ -16,7 +16,7 @@ register_url_online: https://rcmc2021-online.eventbrite.com/
 <div class="text-center no-bullets">
 
 * **Saturday, October 23, 2021**
-* 7:30 AM - 12:30 PM
+* 7:30 AM - 12:15 PM
 * Doors open at 7:00
 * 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano,
 * Followed by a talk by Dr. Miravalle
@@ -47,8 +47,8 @@ Rochester, NY 14606
     </li>
   </ul>
   <p>
-    {% comment %}(Includes a light snack)<br/> {% endcomment %}
-    {% if agenda %}<a href="#agenda">See Agenda below</a>{% endif %}
+    (Includes a light snack)<br/>
+    {%- if agenda %}<a href="#agenda">See Agenda below</a>{% endif -%}
   </p>
 </div>
 
