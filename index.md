@@ -19,8 +19,8 @@ register_url_online: https://rcmc2021-online.eventbrite.com/
 * 7:30 AM - 12:15 PM
 * Doors open at 7:00
 * 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano,
-* Followed by a talk by Dr. Miravalle
-* Conference ends at 12:30 PM
+* Followed by talks by Dr. Miravalle and Fr. Matthew Walter
+* Conference ends at 12:15 PM
 * Online simulcast available
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
 
