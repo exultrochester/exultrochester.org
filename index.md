@@ -52,17 +52,17 @@ Rochester, NY 14606
   </p>
 </div>
 
-{% include register-links %}
+{% include 'register-links' %}
 
-{% include speakers %}
+{% include 'speakers' %}
 
-{% include register-links %}
+{% include 'register-links' %}
 
 {% comment %}<Promos items={DATA.promos} />{% endcomment -%}
 
 {% if agenda %}
-{% include agenda %}
-{% include register-links %}
+{% include 'agenda' %}
+{% include 'register-links' %}
 {% endif %}
 
 &nbsp;

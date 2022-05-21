@@ -1,6 +1,8 @@
 const yaml = require("js-yaml");
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   eleventyConfig.addPassthroughCopy('admin');
