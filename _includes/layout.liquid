@@ -2,6 +2,7 @@
 
 <head>
   <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width">
   <meta name="description" content="Exult Rochester runs the annual Rochester Catholic Men's Conference" />
   <meta name="keywords" content="catholic, christian, rochester, men, men's, conference">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,6 +24,7 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand" href="#">{% include 'exultrochester' %}</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav">
         {% for thisLink in site.nav -%}

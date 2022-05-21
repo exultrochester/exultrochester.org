@@ -3,11 +3,6 @@
   "nav": [
     {
       "to": "/",
-      "text": "ExultRochester",
-      "cssClass": "navbar-brand"
-    },
-    {
-      "to": "/",
       "text": "2021"
     },
     {
