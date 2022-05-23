@@ -2,6 +2,8 @@
 path: /
 year: 2021
 register_url_online: https://rcmc2021-online.eventbrite.com/
+title: Home
+description: Our Homepage
 ---
 
 
