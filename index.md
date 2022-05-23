@@ -4,8 +4,7 @@ year: 2021
 register_url_online: https://rcmc2021-online.eventbrite.com/
 ---
 
-
-<img src="/images/exulttopbar-small.jpg" style="float: right" />
+<img src="/images/exulttopbar-small.jpg" class="homepage-logo" />
 
 # {% exultrochester %}
 
