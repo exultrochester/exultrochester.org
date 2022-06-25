@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Ed Brannin",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-upgrade-help": "^1.0.1",
     "airtable": "^0.11.1",
     "js-yaml": "^4.1.0",
     "markdown-it-anchor": "^5.2.4"
@@ -19,6 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
     "prettier": "^1.11.1"
   }
 }
