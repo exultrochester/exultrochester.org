@@ -9,7 +9,7 @@ This is the website for the Rochester Catholic Men's Conference
 
 ## Making Changes
 
-* Moat pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/)
+* Most pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/)
 * Some pages also use [Liquid template](https://shopify.github.io/liquid/) tags.
 
 ### Running Locally
