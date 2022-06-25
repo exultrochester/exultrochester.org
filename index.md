@@ -1,25 +1,27 @@
 ---
 path: /
-year: 2021
-register_url_online: https://rcmc2021-online.eventbrite.com/
+year: 2022
+register_url_online: https://rcmc2022-online.eventbrite.com/
 ---
 
 <img src="/images/exulttopbar-small.jpg" class="homepage-logo" />
 
 # {% exultrochester %}
 
-## 2021 Rochester Catholic Men's Conference
+## 2022 Rochester Catholic Men's Conference
+
+<img src="/assets/2021 Ultima Cena-640.png" >
 
 # {{ theme }} - {{ tagline }}
 
 <div class="text-center no-bullets">
 
-* **Saturday, October 23, 2021**
-* 7:30 AM - 12:15 PM
+* **Saturday, October 15, 2022**
+* 7:30 AM - 12:30 PM
 * Doors open at 7:00
-* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano,
-* Followed by talks by Dr. Miravalle and Fr. Matthew Walter
-* Conference ends at 12:15 PM
+* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
+* Featured Speaker: Dave Nodar of ChristLife
+* Conference ends at 12:30 PM
 * Online simulcast available
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
 
