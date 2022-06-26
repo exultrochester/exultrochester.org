@@ -50,6 +50,15 @@ table.parish-mens-groups td p:last-child {
   background-color: white;
 }
 
+.content-inner.conference table.speakers {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-inner.conference {
+  text-align: center;
+}
+
 a.social-icon {
   display: inline-block;
   width: 50px;
@@ -193,4 +202,8 @@ img.footer-logo {
 
 .btn.register {
   border-radius: 2rem;
+}
+
+table.speakers td {
+  text-align: left;
 }

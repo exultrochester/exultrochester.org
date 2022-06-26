@@ -2,6 +2,7 @@
 path: /
 year: 2022
 register_url_online: https://rcmc2022-online.eventbrite.com/
+cssClass: conference
 ---
 
 # {% exultrochester %}
