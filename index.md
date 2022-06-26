@@ -4,8 +4,6 @@ year: 2022
 register_url_online: https://rcmc2022-online.eventbrite.com/
 ---
 
-<img src="/images/exulttopbar-small.jpg" class="homepage-logo" />
-
 # {% exultrochester %}
 
 ## 2022 Rochester Catholic Men's Conference
