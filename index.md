@@ -11,7 +11,7 @@ cssClass: conference
 
 <img src="/assets/2021 Ultima Cena-640.png" >
 
-# {{ theme }} - {{ tagline }}
+# {{ theme }}
 
 <div class="text-center no-bullets">
 
