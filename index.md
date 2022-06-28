@@ -16,7 +16,7 @@ cssClass: conference
 <div class="text-center no-bullets">
 
 * **Saturday, October 15, 2022**
-* 7:30 AM - 12:15 PM
+* 7:30 AM - 12:30 PM
 * Doors open at 7:00
 * 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
 * **Speaker details coming soon!**
