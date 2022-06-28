@@ -1,14 +1,15 @@
 ---
 path: /
-year: 2021
-register_url_online: https://rcmc2021-online.eventbrite.com/
----
+year: 2022
+cssClass: conference
 
-<img src="/images/exulttopbar-small.jpg" class="homepage-logo" />
+---
 
 # {% exultrochester %}
 
 ## 2021 Rochester Catholic Men's Conference
+
+<img src="/assets/2021 Ultima Cena-640.png" >
 
 # {{ theme }} - {{ tagline }}
 
@@ -17,8 +18,8 @@ register_url_online: https://rcmc2021-online.eventbrite.com/
 * **Saturday, October 23, 2021**
 * 7:30 AM - 12:15 PM
 * Doors open at 7:00
-* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano,
-* Followed by talks by Dr. Miravalle and Fr. Matthew Walter
+* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
+* **Speaker details coming soon!**
 * Conference ends at 12:15 PM
 * Online simulcast available
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
@@ -50,19 +51,6 @@ Rochester, NY 14606
     {%- if agenda %}<a href="#agenda">See Agenda below</a>{% endif -%}
   </p>
 </div>
-
-{% include 'register-links' %}
-
-{% include 'speakers' %}
-
-{% include 'register-links' %}
-
-{% comment %}<Promos items={DATA.promos} />{% endcomment -%}
-
-{% if agenda %}
-{% include 'agenda' %}
-{% include 'register-links' %}
-{% endif %}
 
 &nbsp;
 

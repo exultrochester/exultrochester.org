@@ -139,6 +139,10 @@ table.agenda {
   margin-bottom: 0;
 }
 
+.content-inner.conference {
+  text-align: center;
+}
+
 .buttons {
   text-align: center;
 }
@@ -183,4 +187,10 @@ img.homepage-logo {
     /* float: none; */
     display: none;
   }
+}
+
+img.footer-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
