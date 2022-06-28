@@ -15,7 +15,7 @@ cssClass: conference
 
 <div class="text-center no-bullets">
 
-* **Saturday, October 23, 2021**
+* **Saturday, October 15, 2022**
 * 7:30 AM - 12:15 PM
 * Doors open at 7:00
 * 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
