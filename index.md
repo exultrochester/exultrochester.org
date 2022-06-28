@@ -7,7 +7,7 @@ cssClass: conference
 
 # {% exultrochester %}
 
-## 2021 Rochester Catholic Men's Conference
+## 2022 Rochester Catholic Men's Conference
 
 <img src="/assets/2021 Ultima Cena-640.png" >
 
@@ -20,7 +20,7 @@ cssClass: conference
 * Doors open at 7:00
 * 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
 * **Speaker details coming soon!**
-* Conference ends at 12:15 PM
+* Conference ends at 12:30 PM
 * Online simulcast available
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
 
