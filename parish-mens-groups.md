@@ -1,3 +1,6 @@
+---
+title: Parish Men's Groups
+---
 # Parish Men's Groups
 
 Looking to join a men's group? Interested in starting one at your
