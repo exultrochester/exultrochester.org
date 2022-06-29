@@ -207,3 +207,11 @@ img.footer-logo {
 table.speakers td {
   text-align: left;
 }
+
+h1.theme {
+  color: #F33
+}
+
+div.branding {
+  color: #22F;
+}

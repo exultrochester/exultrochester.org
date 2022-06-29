@@ -1,17 +1,26 @@
 ---
 path: /
+title: 2022
 year: 2022
 register_url_online: https://rcmc2022-online.eventbrite.com/
 cssClass: conference
 ---
 
+<div class="Branding">
+
 # {% exultrochester %}
 
 ## 2022 Rochester Catholic Men's Conference
 
+</div>
+
 <img src="/assets/2021 Ultima Cena-640.png" >
 
-# {{ theme }} - {{ tagline }}
+<div class="theme">
+
+# {{ theme }}{% if tagline %} - {{ tagline }}{% endif %}
+
+</div>
 
 <div class="text-center no-bullets">
 
