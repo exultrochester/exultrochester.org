@@ -194,3 +194,11 @@ img.footer-logo {
   margin-right: auto;
   display: block;
 }
+
+h1.theme {
+  color: #F33
+}
+
+div.branding {
+  color: #22F;
+}

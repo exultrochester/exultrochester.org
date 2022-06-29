@@ -5,13 +5,17 @@ cssClass: conference
 
 ---
 
+<div class="branding">
+
 # {% exultrochester %}
 
 ## 2022 Rochester Catholic Men's Conference
 
+</div>
+
 <img src="/assets/2021 Ultima Cena-640.png" >
 
-# {{ theme }}
+<h1 class="theme">{{ theme }}</h1>
 
 <div class="text-center no-bullets">
 
