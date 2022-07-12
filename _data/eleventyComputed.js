@@ -9,7 +9,27 @@ const getConferenceValue = (name) => (data) => {
   return undefined;
 };
 
-console.log('computed!');
+const getShareImage = () => (data) => {
+  const { page, site } = data;
+  const { siteUrl } = site;
+  // console.log(`getShareImage(${JSON.stringify({ page, site }, null, 2)})`);
+
+  const shareImagePath = page.shareImagePath || site.shareImagePath;
+  if (!shareImagePath) {
+    console.warn(`shareImagePath is not set on ${page.url}`)
+    return '';
+  }
+
+  if (!siteUrl) {
+    console.error(`site.siteUrl is not set!`)
+    console.debug(`data is: ${JSON.stringify(data, null, 2)}`);
+    throw new Error('site.siteUrl is not set!');
+  }
+
+  return `${siteUrl}/${shareImagePath}`;
+}
+
+console.log('Loaded eleventyComputed.js!');
 
 module.exports = {
   parent: data => data.parent,
@@ -22,4 +42,5 @@ module.exports = {
   speakers: getConferenceValue('speakers'),
   promos: getConferenceValue('promos'),
   agenda: getConferenceValue('agenda'),
+  shareImageUrl: getShareImage(),
 };
