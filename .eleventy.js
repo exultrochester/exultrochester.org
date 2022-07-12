@@ -5,6 +5,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
+  eleventyConfig.setLiquidOptions({ strictFilters: true });
+
   eleventyConfig.addPassthroughCopy('admin');
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('images');
