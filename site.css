@@ -148,6 +148,10 @@ table.agenda {
   margin-bottom: 0;
 }
 
+.content-inner.conference {
+  text-align: center;
+}
+
 .buttons {
   text-align: center;
 }
@@ -208,7 +212,13 @@ table.speakers td {
   text-align: left;
 }
 
-div.theme {
+img.footer-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.theme {
   color: #F33
 }
 

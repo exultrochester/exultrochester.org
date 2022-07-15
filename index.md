@@ -6,7 +6,7 @@ register_url_online: https://rcmc2022-online.eventbrite.com/
 cssClass: conference
 ---
 
-<div class="Branding">
+<div class="branding">
 
 # {% exultrochester %}
 
@@ -60,19 +60,6 @@ Rochester, NY 14606
     {%- if agenda %}<a href="#agenda">See Agenda below</a>{% endif -%}
   </p>
 </div>
-
-{% include 'register-links' %}
-
-{% include 'speakers' %}
-
-{% include 'register-links' %}
-
-{% comment %}<Promos items={DATA.promos} />{% endcomment -%}
-
-{% if agenda %}
-{% include 'agenda' %}
-{% include 'register-links' %}
-{% endif %}
 
 &nbsp;
 
