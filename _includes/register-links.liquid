@@ -1,11 +1,11 @@
-<div style="text-align: center">
+<p style="text-align: center">
   <a class="btn btn-primary register" href="{{ register_url }}" role="button">
     {{ register_text | default: 'Register Now!<br>(In Person)' }}
   </a>
   <a class="btn btn-primary register" href="{{ register_url_online }}" role="button">
     {{ register_text | default: 'Register Now!<br>(Livestream)' }}
   </a>
-</div>
+</p>
 {% if register_by_mail_path %}
 <p style="text-align: center">
   Or <a href="{{register_by_mail_path}}">mail a check with this form</a>

@@ -63,6 +63,8 @@ Rochester, NY 14606
 
 {% include 'register-links' %}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XP4Ln72Lz1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {% include 'speakers' %}
 
 {% include 'register-links' %}
