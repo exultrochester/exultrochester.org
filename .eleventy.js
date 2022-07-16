@@ -5,6 +5,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
+  eleventyConfig.setLiquidOptions({ strictFilters: true });
+
   eleventyConfig.addPassthroughCopy('admin');
   eleventyConfig.addPassthroughCopy('assets');
   eleventyConfig.addPassthroughCopy('images');
@@ -36,6 +38,20 @@ module.exports = function(eleventyConfig) {
   const exultRochesterBranding = () => `<span class="exult">Exult</span><span class="rochester">Rochester</span>`;
   eleventyConfig.addShortcode('exultrochester', exultRochesterBranding);
 
+  eleventyConfig.addShortcode("metaProperty", function (name, ...values) {
+    const { page } = this;
+    // console.log(`in metaProperty('${name}', ${JSON.stringify(values, null, 2)}) at ${page.url}`);
+    const result = (v) =>  `<meta property="${name}" content="${v}" />`;
+    for (let i = 0; i < values.length; i += 1) {
+      const value = values[i];
+      // console.log(`Checking value: ${value}`)
+      if (value) {
+        const answer = result(value);
+        // console.log(`Returning: ${answer}`)
+        return answer;
+      }
+    }
+  });
 
   eleventyConfig.addShortcode("navLink", function({ to, text, disabled, cssClass }, page) {
     if (disabled) {

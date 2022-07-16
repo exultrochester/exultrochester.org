@@ -1,3 +1,6 @@
+---
+title: Contact Us
+---
 ## Contact Us
 
 Please contact us at the following address:

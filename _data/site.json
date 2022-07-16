@@ -1,5 +1,8 @@
 {
   "title": "Exult Rochester",
+  "description": "Rochester Catholic Men's Conference",
+  "siteUrl": "https://exultrochester.org",
+  "shareImagePath": "/assets/rcmc-2022-video-ending-v2.png",
   "nav": [
     {
       "to": "/",

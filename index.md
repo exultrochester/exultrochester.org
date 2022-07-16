@@ -1,8 +1,9 @@
 ---
 path: /
+title: 2022 Conference
 year: 2022
+register_url_online: https://rcmc2022-online.eventbrite.com/
 cssClass: conference
-
 ---
 
 <div class="branding">
@@ -15,7 +16,11 @@ cssClass: conference
 
 <img src="/assets/2021 Ultima Cena-640.png" >
 
-<h1 class="theme">{{ theme }}</h1>
+<div class="theme">
+
+# {{ theme }}{% if tagline %} - {{ tagline }}{% endif %}
+
+</div>
 
 <div class="text-center no-bullets">
 
@@ -23,7 +28,7 @@ cssClass: conference
 * 7:30 AM - 12:30 PM
 * Doors open at 7:00
 * 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
-* **Speaker details coming soon!**
+* Featured Speaker: Dave Nodar of ChristLife
 * Conference ends at 12:30 PM
 * Online simulcast available
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
@@ -55,6 +60,21 @@ Rochester, NY 14606
     {%- if agenda %}<a href="#agenda">See Agenda below</a>{% endif -%}
   </p>
 </div>
+
+{% include 'register-links' %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XP4Ln72Lz1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% include 'speakers' %}
+
+{% include 'register-links' %}
+
+{% comment %}<Promos items={DATA.promos} />{% endcomment -%}
+
+{% if agenda %}
+{% include 'agenda' %}
+{% include 'register-links' %}
+{% endif %}
 
 &nbsp;
 
