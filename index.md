@@ -1,7 +1,7 @@
 ---
 path: /
 title: 2022 Conference
-year: 2022
+year: 2025
 register_url_online: https://rcmc2022-online.eventbrite.com/
 cssClass: conference
 ---
