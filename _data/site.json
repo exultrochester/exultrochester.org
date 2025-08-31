@@ -15,7 +15,8 @@
     },
     {
       "to": "/parish-mens-groups/",
-      "text": "Parish Men's Groups"
+      "text": "Parish Men's Groups",
+      "disabled": true
     },
     {
       "to": "/registration",
