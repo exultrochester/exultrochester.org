@@ -6,7 +6,7 @@
   "nav": [
     {
       "to": "/",
-      "text": "2022"
+      "text": "2025"
     },
     {
       "to": "/past-conferences/",
@@ -14,29 +14,13 @@
       "disabled": true
     },
     {
-      "to": "/parish-mens-groups/",
-      "text": "Parish Men's Groups"
-    },
-    {
       "to": "/registration",
       "text": "Registration",
       "disabled": true
     },
     {
-      "to": "/get-involved/",
-      "text": "Get Involved"
-    },
-    {
-      "to": "/about/",
-      "text": "About"
-    },
-    {
       "to": "/resources/",
       "text": "Resources"
-    },
-    {
-      "to": "/contact/",
-      "text": "Contact"
     }
   ],
   "social": {

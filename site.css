@@ -28,6 +28,10 @@ a.nav-link {}
   vertical-align: middle;
 }
 
+ul.no-bullets {
+  margin-left: 0;
+}
+
 .no-bullets li {
   list-style: none;
   margin-bottom: 0;
