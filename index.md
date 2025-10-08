@@ -1,8 +1,8 @@
 ---
 path: /
-title: 2022 Conference
-year: 2022
-register_url_online: https://rcmc2022-online.eventbrite.com/
+title: 2025 Conference
+year: 2025
+register_text: Register Now!
 cssClass: conference
 ---
 
@@ -10,27 +10,27 @@ cssClass: conference
 
 # {% exultrochester %}
 
-## 2022 Rochester Catholic Men's Conference
+## 2025 Rochester Catholic Men's Conference
 
 </div>
 
 <img src="/assets/2021 Ultima Cena-640.png" >
 
 <div class="theme">
-
-# {{ theme }}{% if tagline %} - {{ tagline }}{% endif %}
-
+<h1>
+{{ theme }}{% if tagline %} - {{ tagline }}{% endif %}
+</h1>
 </div>
 
 <div class="text-center no-bullets">
 
-* **Saturday, October 15, 2022**
-* 7:30 AM - 12:30 PM
-* Doors open at 7:00
-* 8:00 AM Mass with The Most Reverend Bishop Salvatore Matano
-* Featured Speaker: Dave Nodar of ChristLife
-* Conference ends at 12:30 PM
-* Online simulcast available
+* **Saturday, November 15, 2025**
+* 8:00 AM - 12:30 PM
+* 8:30 AM Mass with The Most Reverend Bishop Salvatore Matano
+* Featured Speaker:  Rev. Gerard D'Souza, Abbot of the Abbey of the Genesee
+* Conference ends at 12:30 PM; Lunch served and Conversations start at this time
+
+
 {% if agenda_path -%}* [Full Agenda]({{ agenda_path }})\{% endif %}
 
 </div>
@@ -46,28 +46,22 @@ Rochester, NY 14606
 <div class="text-center">
   <ul class="no-bullets">
     <li style="display: 'inline-block'">
-      $15 Livestream
-    </li>
-    <li style="display: 'inline-block'">
-      $25 In-person
-    </li>
-    <li style="display: 'inline-block'">
-      $30 at the door
+      $20
     </li>
   </ul>
   <p>
-    (Includes a light snack)<br/>
+    (Includes lunch)<br/>
     {%- if agenda %}<a href="#agenda">See Agenda below</a>{% endif -%}
   </p>
 </div>
 
 {% include 'register-links' %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XP4Ln72Lz1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+{% if speakers %}
 {% include 'speakers' %}
 
 {% include 'register-links' %}
+{% endif %}
 
 {% comment %}<Promos items={DATA.promos} />{% endcomment -%}
 
@@ -75,6 +69,8 @@ Rochester, NY 14606
 {% include 'agenda' %}
 {% include 'register-links' %}
 {% endif %}
+
+To get involved, call Mike Sauter at 585-328-3228 (x1337) or email Micheal.Sauter@dor.org  
 
 &nbsp;
 

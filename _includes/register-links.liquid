@@ -2,9 +2,11 @@
   <a class="btn btn-primary register" href="{{ register_url }}" role="button">
     {{ register_text | default: 'Register Now!<br>(In Person)' }}
   </a>
+{% if register_url_online %}
   <a class="btn btn-primary register" href="{{ register_url_online }}" role="button">
     {{ register_text | default: 'Register Now!<br>(Livestream)' }}
   </a>
+{% endif %}
 </p>
 {% if register_by_mail_path %}
 <p style="text-align: center">
